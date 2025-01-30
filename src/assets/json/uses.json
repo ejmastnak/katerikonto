@@ -1,0 +1,16 @@
+{
+  "en": {
+    "C": "Companies",
+    "SP": "Sole proprietors – individuals",
+    "CO": "Cooperatives",
+    "N": "Non-profit organisations – private law entities",
+    "SD": "Societies and disabled persons organisations"
+  },
+  "sl": {
+    "D": "Gospodarske družbe",
+    "P": "Samostojni podjetniki posamezniki",
+    "Z": "Zadruge",
+    "N": "Nepridobitne organizacije – pravne osebe zasebnega prava",
+    "DI": "Društva in invalidske organizacije"
+  }
+}

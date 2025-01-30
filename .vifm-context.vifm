@@ -1,0 +1,5 @@
+let $VIFM_CONTEXT = expand('%d')
+
+source $VIFM/navigation/vue.vifm
+
+nnoremap ;jp :cd $VIFM_CONTEXT/src/Views/<CR>

@@ -1,0 +1,2928 @@
+[
+  {
+    "code": "000",
+    "name_en": "Goodwill",
+    "name_sl": "Dobro ime",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "002",
+    "name_en": "Deferred development costs",
+    "name_sl": "Odloženi stroški razvijanja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "003",
+    "name_en": "Property and other rights",
+    "name_sl": "Premoženjske in druge pravice",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "005",
+    "name_en": "Other intangible assets (also carbon emission trading)",
+    "name_sl": "Druga neopredmetena sredstva (tudi emisijski kuponi)",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "007",
+    "name_en": "Long-term deferred costs and accrued revenue",
+    "name_sl": "Dolgoročne aktivne časovne razmejitve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "008",
+    "name_en": "Accumulated amortisation of intangible assets",
+    "name_sl": "Popravek vrednosti neopredmetenih sredstev zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "009",
+    "name_en": "Impairment of intangible assets",
+    "name_sl": "Oslabitev vrednosti neopredmetenih sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "010",
+    "name_en": "Investment property measured using a cost model",
+    "name_sl": "Naložbene nepremičnine, vrednotene po modelu nabavne vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "011",
+    "name_en": "Investment property measured using a fair value model",
+    "name_sl": "Naložbene nepremičnine, vrednotene po modelu poštene vrednosti",
+    "uses_en": ["C", "SP", "CO", "SD"],
+    "uses_sl": ["D", "P", "Z", "DI"]
+  },
+  {
+    "code": "015",
+    "name_en": "Accumulated depreciation of investment property",
+    "name_sl": "Popravek vrednosti naložbenih nepremičnin zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "017",
+    "name_en": "Investment property in course of construction",
+    "name_sl": "Naložbene nepremičnine v gradnji oziroma izdelavi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "019",
+    "name_en": "Impairment of investment property",
+    "name_sl": "Oslabitev vrednosti naložbenih nepremičnin",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "020",
+    "name_en": "Land valued at a cost model",
+    "name_sl": "Zemljišča, vrednotena po modelu nabavne vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "021",
+    "name_en": "Buildings valued at a cost model",
+    "name_sl": "Zgradbe, vrednotene po modelu nabavne vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "022",
+    "name_en": "Land valued at a revaluation model",
+    "name_sl": "Zemljišča, vrednotena po modelu revaloriziranja",
+    "uses_en": ["C", "SP", "CO", "SD"],
+    "uses_sl": ["D", "P", "Z", "DI"]
+  },
+  {
+    "code": "023",
+    "name_en": "Buildings valued at a revaluation model",
+    "name_sl": "Zgradbe, vrednotene po modelu revaloriziranja",
+    "uses_en": ["C", "SP", "CO", "SD"],
+    "uses_sl": ["D", "P", "Z", "DI"]
+  },
+  {
+    "code": "026",
+    "name_en": "Investments in third-party property",
+    "name_sl": "Vlaganja v nepremičnine v tuji lasti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "027",
+    "name_en": "Property in course of construction",
+    "name_sl": "Nepremičnine v gradnji oziroma izdelavi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "031",
+    "name_en": "Impairment of land",
+    "name_sl": "Oslabitev vrednosti zemljišč",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "032",
+    "name_en": "Accumulated depreciation of land (quarries, landfills)",
+    "name_sl": "Popravek vrednosti zemljišč (kamnolomov, odlagališč odpadkov) zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "035",
+    "name_en": "Accumulated depreciation of buildings",
+    "name_sl": "Popravek vrednosti zgradb zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "036",
+    "name_en": "Accumulated depreciation of third-party property",
+    "name_sl": "Popravek vrednosti vlaganj v nepremičnine v tuji lasti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "039",
+    "name_en": "Impairment of buildings",
+    "name_sl": "Oslabitev vrednosti zgradb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "040",
+    "name_en": "Equipment and spare parts valued at a cost model",
+    "name_sl": "Oprema in nadomestni deli, vrednoteni po modelu nabavne vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "041",
+    "name_en": "Low-value assets",
+    "name_sl": "Drobni inventar",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "043",
+    "name_en": "Biological assets – vineyards, orchards and other plantations",
+    "name_sl": "Biološka sredstva – večletni nasadi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "044",
+    "name_en": "Biological assets – rearing herd",
+    "name_sl": "Biološka sredstva – osnovna čreda",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "045",
+    "name_en": "Other property, plant and equipment",
+    "name_sl": "Druga opredmetena osnovna sredstva",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "046",
+    "name_en": "Investments in third-party property, plant and equipment",
+    "name_sl": "Vlaganja v opredmetena osnovna sredstva v tuji lasti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "047",
+    "name_en": "Equipment and other property, plant and equipment in course of construction",
+    "name_sl": "Oprema in druga opredmetena osnovna sredstva v gradnji oziroma izdelavi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "048",
+    "name_en": "Works of art and other objects of cultural or of historical value that are not depreciated",
+    "name_sl": "Umetniška dela in drugi predmeti kulturne in/ali zgodovinske vrednosti, ki se ne amortizirajo",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "050",
+    "name_en": "Accumulated depreciation of equipment and spare parts",
+    "name_sl": "Popravek vrednosti opreme in nadomestnih delov zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "051",
+    "name_en": "Accumulated depreciation of low value assets",
+    "name_sl": "Popravek vrednosti drobnega inventarja zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "052",
+    "name_en": "Impairment of equipment and spare parts",
+    "name_sl": "Oslabitev vrednosti opreme in nadomestnih delov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "053",
+    "name_en": "Accumulated depreciation of biological assets – vineyards, orchards and other plantations",
+    "name_sl": "Popravek vrednosti bioloških sredstev – večletnih nasadov zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "054",
+    "name_en": "Accumulated depreciation of biological assets – rearing herd",
+    "name_sl": "Popravek vrednosti bioloških sredstev – osnovne črede zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "055",
+    "name_en": "Accumulated depreciation of other property, plant and equipment",
+    "name_sl": "Popravek vrednosti drugih opredmetenih osnovnih sredstev zaradi amortiziranja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "056",
+    "name_en": "Accumulated depreciation of investments in third-party property, plant and equipment",
+    "name_sl": "Popravek vrednosti vlaganj v opredmetena osnovna sredstva v tuji lasti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "058",
+    "name_en": "Impairment of biological assets",
+    "name_sl": "Oslabitev vrednosti bioloških sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "059",
+    "name_en": "Impairment of other property, plant and equipment",
+    "name_sl": "Oslabitev vrednosti drugih opredmetenih osnovnih sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "060",
+    "name_en": "Long-term investments in shares and interests of organisations in the group, classified and measured at cost",
+    "name_sl": "Dolgoročne finančne naložbe v delnice in deleže organizacij v skupini, razporejene in izmerjene po nabavni vrednosti",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "063",
+    "name_en": "Long-term investments in shares and interests of associated organisations and jointly-controlled organisations, classified and measured at cost",
+    "name_sl": "Dolgoročne finančne naložbe v delnice in deleže pridruženih organizacij in skupaj obvladovanih organizacij, razporejene in izmerjene po nabavni vrednosti",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "066",
+    "name_en": "Other long-term investments classified and measured at cost",
+    "name_sl": "Druge dolgoročne finančne naložbe, razporejene in izmerjene po nabavni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "067",
+    "name_en": "Other long-term investments classified and measured at fair value through profit or loss",
+    "name_sl": "Druge dolgoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "068",
+    "name_en": "Other long-term investments classified and measured at fair value through equity or own source of funds",
+    "name_sl": "Druge dolgoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek kapitala oziroma lastnega vira sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "069",
+    "name_en": "Impairment of long-term investments",
+    "name_sl": "Oslabitev vrednosti dolgoročnih finančnih naložb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "070",
+    "name_en": "Long-term loans granted on the basis of loan agreements to organisations in the group, including long-term receivables from finance lease",
+    "name_sl": "Dolgoročna posojila, dana na podlagi posojilnih pogodb organizacijam v skupini, vključno z dolgoročnimi terjatvami iz finančnega najema",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "071",
+    "name_en": "Long-term loans granted on the basis of loan agreements to associated organisations and jointly-controlled organisations, including long-term receivables from finance lease",
+    "name_sl": "Dolgoročna posojila, dana na podlagi posojilnih pogodb pridruženim organizacijam in skupaj obvladovanim organizacijam, vključno z dolgoročnimi terjatvami iz finančnega najema",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "072",
+    "name_en": "Long-term loans to others, including long-term receivables from finance lease",
+    "name_sl": "Dolgoročna posojila, dana drugim, vključno z dolgoročnimi terjatvami iz finančnega najema",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "073",
+    "name_en": "Long-term loans granted by redemption of bonds from organisations in the group",
+    "name_sl": "Dolgoročna posojila, dana z odkupom obveznic od organizacij v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "074",
+    "name_en": "Long-term loans granted by redemption of bonds from associated organisations and jointly controlled organisations",
+    "name_sl": "Dolgoročna posojila, dana z odkupom obveznic od pridruženih organizacij in skupaj obvladovanih organizacij",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "075",
+    "name_en": "Long-term loans granted by the redemption of bonds from others",
+    "name_sl": "Dolgoročna posojila, dana z odkupom obveznic od drugih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "076",
+    "name_en": "Long-term receivables from unpaid called-up capital",
+    "name_sl": "Dolgoročne terjatve za nevplačani vpoklicani kapital",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "077",
+    "name_en": "Other long-term invested assets",
+    "name_sl": "Druga dolgoročno vložena sredstva",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "078",
+    "name_en": "Long-term deposits given",
+    "name_sl": "Dani dolgoročni depoziti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "079",
+    "name_en": "Impairment of long-term loans granted",
+    "name_sl": "Oslabitev vrednosti danih dolgoročnih posojil",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "080",
+    "name_en": "Long-term trade credits ranted in the country",
+    "name_sl": "Dolgoročni blagovni krediti, dani v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "081",
+    "name_en": "Long-term trade credits granted abroad",
+    "name_sl": "Dolgoročni blagovni krediti, dani v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "082",
+    "name_en": "Long-term consumer credits granted",
+    "name_sl": "Dani dolgoročni potrošniški krediti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "083",
+    "name_en": "Long-term advances paid",
+    "name_sl": "Dani dolgoročni predujmi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "084",
+    "name_en": "Long-term collaterals given",
+    "name_sl": "Dane dolgoročne varščine",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "086",
+    "name_en": "Other long-term operating receivables",
+    "name_sl": "Druge dolgoročne poslovne terjatve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "089",
+    "name_en": "Impairment of long-term operating receivables",
+    "name_sl": "Oslabitev vrednosti dolgoročnih poslovnih terjatev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "090",
+    "name_en": "Deferred tax assets arising from deductible temporary differences",
+    "name_sl": "Odložene terjatve za davek iz odbitnih začasnih razlik",
+    "uses_en": ["C", "CO", "N"],
+    "uses_sl": ["D", "Z", "N"]
+  },
+  {
+    "code": "091",
+    "name_en": "Deferred tax assets arising from unused tax losses carried forward to future tax periods",
+    "name_sl": "Odložene terjatve za davek iz neizrabljenih davčnih izgub, prenesenih v naslednja davčna obdobja",
+    "uses_en": ["C", "CO", "N"],
+    "uses_sl": ["D", "Z", "N"]
+  },
+  {
+    "code": "092",
+    "name_en": "Deferred tax assets arising from tax credit notes carried forward to future tax periods",
+    "name_sl": "Odložene terjatve za davek iz davčnih dobropisov, prenesenih v naslednja davčna obdobja",
+    "uses_en": ["C", "CO", "N"],
+    "uses_sl": ["D", "Z", "N"]
+  },
+  {
+    "code": "100",
+    "name_en": "Cash in hand, other than foreign currency",
+    "name_sl": "Denarna sredstva v blagajni, razen deviznih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "101",
+    "name_en": "Foreign currency in hand",
+    "name_sl": "Devizna sredstva v blagajni",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "102",
+    "name_en": "Cheques issued (as a deductible item)",
+    "name_sl": "Izdani čeki (odbitna postavka)",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "103",
+    "name_en": "Cheques received",
+    "name_sl": "Prejeti čeki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "104",
+    "name_en": "Risk-free readily realisable debt securities",
+    "name_sl": "Netvegani takoj udenarljivi dolžniški vrednostni papirji",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "109",
+    "name_en": "Cash in transit",
+    "name_sl": "Denar na poti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "110",
+    "name_en": "Cash in bank accounts, other than foreign-currency ones",
+    "name_sl": "Denarna sredstva na računih, razen deviznih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "111",
+    "name_en": "Short-term deposits or deposits redeemable at notice, except foreigncurrency ones",
+    "name_sl": "Kratkoročni depoziti oziroma depoziti na odpoklic, razen deviznih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "112",
+    "name_en": "Foreign-currencies in bank accounts",
+    "name_sl": "Devizna sredstva na računih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "113",
+    "name_en": "Short-term foreign currency deposits or foreign currency deposits redeemable at notice",
+    "name_sl": "Kratkoročni devizni depoziti oziroma devizni depoziti na odpoklic",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "114",
+    "name_en": "Cash in special accounts or for special purposes",
+    "name_sl": "Denarna sredstva na posebnih računih oziroma za posebne namene",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "120",
+    "name_en": "Short-term receivables due from customers in the country",
+    "name_sl": "Kratkoročne terjatve do kupcev v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "121",
+    "name_en": "Short-term receivables due from customers abroad",
+    "name_sl": "Kratkoročne terjatve do kupcev v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "122",
+    "name_en": "Short-term trade credits granted to customers in the country",
+    "name_sl": "Kratkoročni blagovni krediti, dani kupcem v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "123",
+    "name_en": "Short-term trade credits granted to customers abroad",
+    "name_sl": "Kratkoročni blagovni krediti, dani kupcem v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "124",
+    "name_en": "Short-term consumer credits granted to customers in the country",
+    "name_sl": "Kratkoročni potrošniški krediti, dani kupcem v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "125",
+    "name_en": "Short-term receivables due from members",
+    "name_sl": "Kratkoročne terjatve do članov",
+    "uses_en": ["SD"],
+    "uses_sl": ["DI"]
+  },
+  {
+    "code": "126",
+    "name_en": "Short-term receivables from goods and services not yet charged",
+    "name_sl": "Kratkoročne terjatve za nezaračunano blago in storitve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "129",
+    "name_en": "Impairment of short-term receivables due from customers",
+    "name_sl": "Oslabitev vrednosti kratkoročnih terjatev do kupcev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "130",
+    "name_en": "Short-term advances for property, plant and equipment",
+    "name_sl": "Kratkoročni predujmi, dani za opredmetena osnovna sredstva",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "131",
+    "name_en": "Short-term advances for intangible assets",
+    "name_sl": "Kratkoročni predujmi, dani za neopredmetena sredstva",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "132",
+    "name_en": "Short-term advances for inventories of materials, goods and services not yet performed",
+    "name_sl": "Kratkoročni predujmi, dani za zaloge materiala in blaga ter še ne opravljene storitve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "133",
+    "name_en": "Other short-term advances and overpayments",
+    "name_sl": "Drugi dani kratkoročni predujmi in preplačila",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "134",
+    "name_en": "Short-term collaterals given",
+    "name_sl": "Dane kratkoročne varščine",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "139",
+    "name_en": "Impairment of short-term advances, overpayments and collaterals paid",
+    "name_sl": "Oslabitev vrednosti danih kratkoročnih predujmov, preplačil in varščin",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "140",
+    "name_en": "Short-term receivables due from exporters",
+    "name_sl": "Kratkoročne terjatve do izvoznikov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "141",
+    "name_en": "Short-term export receivables on third-party account",
+    "name_sl": "Kratkoročne terjatve iz uvoza za tuj račun",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "142",
+    "name_en": "Short-term receivables from commission and consignment sales",
+    "name_sl": "Kratkoročne terjatve iz komisijske in konsignacijske prodaje",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "145",
+    "name_en": "Other short-term operating receivables on third-party account",
+    "name_sl": "Druge kratkoročne terjatve iz poslovanja za tuj račun",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "149",
+    "name_en": "Impairment of short-term operating receivables on third-partyaccount",
+    "name_sl": "Oslabitev vrednosti kratkoročnih terjatev iz poslovanja za tuj račun",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "150",
+    "name_en": "Short-term interest receivables",
+    "name_sl": "Kratkoročne terjatve za obresti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "151",
+    "name_en": "Short-term dividend receivables",
+    "name_sl": "Kratkoročne terjatve za dividende",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "152",
+    "name_en": "Short-term receivables from other shares in profit",
+    "name_sl": "Kratkoročne terjatve za druge deleže v dobičku",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "155",
+    "name_en": "Other short-term receivables associated with financial revenue",
+    "name_sl": "Druge kratkoročne terjatve, povezane s finančnimi prihodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "159",
+    "name_en": "Impairment of short-term receivables associated with financial revenue",
+    "name_sl": "Oslabitev vrednosti kratkoročnih terjatev, povezanih s finančnimi prihodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "160",
+    "name_en": "Short-term receivables from deductible VAT",
+    "name_sl": "Kratkoročne terjatve za odbitni DDV",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "161",
+    "name_en": "Short-term receivables from corporate income tax, including tax paid abroad",
+    "name_sl": "Kratkoročne terjatve za davek od dohodkov pravnih oseb, vključno z davkom, plačanim v tujini",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "162",
+    "name_en": "Short-term receivables from income tax on the activity of sole proprietors – individuals, including tax paid abroad",
+    "name_sl": "Kratkoročne terjatve za dohodnino od dohodka iz dejavnosti samostojnih podjetnikov posameznikov, vključno z davkom, plačanim v tujini",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "164",
+    "name_en": "Other short-term receivables due from state and other institutions",
+    "name_sl": "Druge kratkoročne terjatve do državnih in drugih inštitucij",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "165",
+    "name_en": "Other short-term receivables",
+    "name_sl": "Ostale kratkoročne terjatve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "166",
+    "name_en": "Short-term receivables from VAT refunded to foreigners",
+    "name_sl": "Kratkoročne terjatve za DDV, vrnjen tujcem",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "167",
+    "name_en": "Short-term receivables from VAT paid abroad",
+    "name_sl": "Kratkoročne terjatve za DDV, plačan v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "169",
+    "name_en": "Impairment of other short-term receivables",
+    "name_sl": "Oslabitev vrednosti drugih kratkoročnih terjatev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "170",
+    "name_en": "Short-term investments in shares and interests of organisations in the group, classified and measured at cost",
+    "name_sl": "Kratkoročne finančne naložbe v delnice in deleže organizacij v skupini, razporejene in izmerjene po nabavni vrednosti",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "173",
+    "name_en": "Short-term investments in shares and interests of associated companies and jointly-controlled organisations classified and measured at cost",
+    "name_sl": "Kratkoročne finančne naložbe v delnice in deleže pridruženih organizacij in skupaj obvladovanih organizacij, razporejene in izmerjene po nabavni vrednosti",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "176",
+    "name_en": "Other short-term investments classified and measured at cost",
+    "name_sl": "Druge kratkoročne finančne naložbe, razporejene in izmerjene po nabavni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "177",
+    "name_en": "Other short-term investments, classified and measured at fair value through profit or loss",
+    "name_sl": "Druge kratkoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek poslovnega izida",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "178",
+    "name_en": "Other short-term investments, classified and measured at fair value through equity or own source of funds",
+    "name_sl": "Druge kratkoročne finančne naložbe, razporejene in izmerjene po pošteni vrednosti prek kapitala oziroma lastnega vira sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "179",
+    "name_en": "Impairment of short-term investments",
+    "name_sl": "Oslabitev vrednosti kratkoročnih finančnih naložb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "180",
+    "name_en": "Short-term loans granted on the basis of loan agreements to organisations in the group",
+    "name_sl": "Kratkoročna posojila, dana na podlagi posojilnih pogodb organizacijam v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "181",
+    "name_en": "Short-term loans granted on the basis of loan agreements to associated organisations and jointly-controlled organisations",
+    "name_sl": "Kratkoročna posojila, dana na podlagi posojilnih pogodb pridruženim organizacijam in skupaj obvladovanim organizacijam",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "182",
+    "name_en": "Short-term loans to others, including short-term receivables from finance lease",
+    "name_sl": "Kratkoročna posojila, dana drugim, vključno s kratkoročnimi terjatvami iz finančnega najema",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "183",
+    "name_en": "Short-term deposits with banks and other financial institutions",
+    "name_sl": "Kratkoročni depoziti v bankah in drugih finančnih organizacijah",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "184",
+    "name_en": "Short-term loans granted by redemption of bonds",
+    "name_sl": "Dana kratkoročna posojila z odkupom obveznic",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "185",
+    "name_en": "Bills received",
+    "name_sl": "Prejete menice",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "186",
+    "name_en": "Short-term loans granted by redemption of bonds of other debt securities",
+    "name_sl": "Dana kratkoročna posojila z odkupom drugih dolžniških vrednostnih papirjev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "187",
+    "name_en": "Short-term unpaid called-up capital",
+    "name_sl": "Kratkoročno nevplačani vpoklicani kapital",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "189",
+    "name_en": "Impairment of short-term loans",
+    "name_sl": "Oslabitev vrednosti kratkoročnih posojil",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "190",
+    "name_en": "Short-term deferred costs or expenses",
+    "name_sl": "Kratkoročno odloženi stroški oziroma odhodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "191",
+    "name_en": "Short-term accrued revenue",
+    "name_sl": "Kratkoročno nezaračunani prihodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "192",
+    "name_en": "Monetary values",
+    "name_sl": "Vrednotnice",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "195",
+    "name_en": "VAT on advances received",
+    "name_sl": "DDV od prejetih predujmov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "210",
+    "name_en": "Liabilities included in disposal groups",
+    "name_sl": "Obveznosti, vključene v skupine za odtujitev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "220",
+    "name_en": "Short-term liabilities (debts) to suppliers in the country",
+    "name_sl": "Kratkoročne obveznosti (dolgovi) do dobaviteljev v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "221",
+    "name_en": "Short-term liabilities (debts) to suppliers abroad",
+    "name_sl": "Kratkoročne obveznosti (dolgovi) do dobaviteljev v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "222",
+    "name_en": "Short-term trade credits received in the country",
+    "name_sl": "Kratkoročni blagovni krediti, prejeti v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "223",
+    "name_en": "Short-term trade credits received abroad",
+    "name_sl": "Kratkoročni blagovni krediti, prejeti v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "224",
+    "name_en": "Short-term liabilities (debts) for goods and services not yet charged",
+    "name_sl": "Kratkoročne obveznosti (dolgovi) za nezaračunane blago in storitve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "230",
+    "name_en": "Short-term advances received",
+    "name_sl": "Prejeti kratkoročni predujmi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "231",
+    "name_en": "Short-term collaterals received",
+    "name_sl": "Prejete kratkoročne varščine",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "240",
+    "name_en": "Short-term export liabilities on third-party account",
+    "name_sl": "Kratkoročne obveznosti iz izvoza za tuj račun",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "241",
+    "name_en": "Short-term liabilities to exporters",
+    "name_sl": "Kratkoročne obveznosti do uvoznikov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "242",
+    "name_en": "Short-term liabilities for commission and consignment sales",
+    "name_sl": "Kratkoročne obveznosti iz komisijske in konsignacijske prodaje",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "245",
+    "name_en": "Other short-term operating liabilities on third-party account",
+    "name_sl": "Druge kratkoročne obveznosti iz poslovanja za tuj račun",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "250",
+    "name_en": "Short-term liabilities for accrued and unaccrued payroll costs",
+    "name_sl": "Kratkoročne obveznosti za vračunane in neobračunane plače",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "251",
+    "name_en": "Short-term liabilities for net payroll and allowances",
+    "name_sl": "Kratkoročne obveznosti za neto plače in nadomestila plač",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "252",
+    "name_en": "Short-term liabilities for social security contributions by type of contributions",
+    "name_sl": "Kratkoročne obveznosti za prispevke za socialno varnost po vrstah prispevkov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "253",
+    "name_en": "Short-term liabilities for contributions from gross payroll and allowances",
+    "name_sl": "Kratkoročne obveznosti za prispevke iz bruto plač in nadomestil plač",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "254",
+    "name_en": "Short-term liabilities for taxes on gross payroll and allowances",
+    "name_sl": "Kratkoročne obveznosti za davke iz bruto plač in nadomestil plač",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "255",
+    "name_en": "Short-term liabilities for other remuneration from employment",
+    "name_sl": "Kratkoročne obveznosti za druge prejemke iz delovnega razmerja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "256",
+    "name_en": "Short-term liabilities for contributions from other remuneration from employment not accounted for together with payroll.",
+    "name_sl": "Kratkoročne obveznosti za prispevke iz drugih prejemkov iz delovnega razmerja, ki se ne obračunavajo skupaj s plačami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "257",
+    "name_en": "Short-term liabilities for taxes on other remuneration from employment not accounted for together with payroll.",
+    "name_sl": "Kratkoročne obveznosti za davek iz drugih prejemkov iz delovnega razmerja, ki se ne obračunavajo skupaj s plačami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "258",
+    "name_en": "Liabilities for payer’s contributions in case an organisation chooses to monitor liabilities for contributions in accordance with the payment accounts (health insurance, pension insurance, parental care and employment contributions), it is proposed to monitor them in account 252, where the organisation monitors them separately by type of contribution. However, if it uses the monitoring by phase of accounting for payroll (payroll contributions, payroll contributions), it uses accounts 253 and 258 for this purpose.",
+    "name_sl": "Obveznosti za prispevke izplačevalca",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "260",
+    "name_en": "Liabilities for VAT accounted for",
+    "name_sl": "Obveznosti za obračunani DDV",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "261",
+    "name_en": "Liabilities for VAT, customs duty and other duties on imported goods",
+    "name_sl": "Obveznosti za DDV, carino in druge dajatve od uvoženega blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "262",
+    "name_en": "Liabilities for contributions",
+    "name_sl": "Obveznosti za prispevke",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "263",
+    "name_en": "Liabilities for advances paid for income tax arising from activity",
+    "name_sl": "Obveznosti za akontacijo dohodnine od dohodka iz dejavnosti",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "264",
+    "name_en": "Liabilities for corporate income tax",
+    "name_sl": "Obveznosti za davek od dohodkov pravnih oseb",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "265",
+    "name_en": "Liabilities for withholding tax",
+    "name_sl": "Obveznosti za davčni odtegljaj",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "266",
+    "name_en": "Other short-term liabilities to state and other institutions",
+    "name_sl": "Druge kratkoročne obveznosti do državnih in drugih inštitucij",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "267",
+    "name_en": "Short-term liabilities for social security contributions of sole proprietors- individuals",
+    "name_sl": "Kratkoročne obveznosti za prispevke za socialno varnost samostojnih podjetnikov posameznikov",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "270",
+    "name_en": "Short-term loans received from organisations in the group",
+    "name_sl": "Kratkoročna posojila, dobljena pri organizacijah v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "271",
+    "name_en": "Short-term loans received from associated organisations and jointly controlled organisations",
+    "name_sl": "Kratkoročna posojila, dobljena pri pridruženih organizacijah in skupaj obvladovanih organizacijah",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "272",
+    "name_en": "Short-term loans received from banks and organisations in the country",
+    "name_sl": "Kratkoročna posojila, dobljena pri bankah in organizacijah v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "273",
+    "name_en": "Short-term loans received from banks and organisations abroad",
+    "name_sl": "Kratkoročna posojila, dobljena pri bankah in organizacijah v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "274",
+    "name_en": "Short-term financial liabilities for bonds",
+    "name_sl": "Kratkoročne finančne obveznosti v zvezi z obveznicami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "275",
+    "name_en": "Short-term lease liabilities",
+    "name_sl": "Kratkoročne obveznosti iz najema",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "276",
+    "name_en": "Short-term financial liabilities to natural persons",
+    "name_sl": "Kratkoročne finančne obveznosti do fizičnih oseb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "277",
+    "name_en": "Short-term liabilities for distribution of profit or loss",
+    "name_sl": "Kratkoročne obveznosti v zvezi z razdelitvijo poslovnega izida",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "278",
+    "name_en": "Liabilities for capital payments up to the entry in the register of companies",
+    "name_sl": "Obveznosti iz vplačila kapitala do vpisa v sodni register",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "279",
+    "name_en": "Other short-term financial liabilities",
+    "name_sl": "Druge kratkoročne finančne obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "280",
+    "name_en": "Short-term interest liabilities",
+    "name_sl": "Kratkoročne obveznosti za obresti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "281",
+    "name_en": "Short-term bills payable",
+    "name_sl": "Kratkoročne menične obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "282",
+    "name_en": "Short-term liabilities for deductions from employee salaries and allowances",
+    "name_sl": "Kratkoročne obveznosti v zvezi z odtegljaji od plač in nadomestil plač zaposlenim",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "285",
+    "name_en": "Other short-term operating liabilities",
+    "name_sl": "Ostale kratkoročne poslovne obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "290",
+    "name_en": "Accrued costs or expenses",
+    "name_sl": "Vnaprej vračunani stroški oziroma odhodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "291",
+    "name_en": "Short-term deferred revenue",
+    "name_sl": "Kratkoročno odloženi prihodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "295",
+    "name_en": "VAT on advances made",
+    "name_sl": "DDV od danih predujmov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "300",
+    "name_en": "Value of raw materials and materials according to the invoices of suppliers",
+    "name_sl": "Vrednost surovin in materiala po obračunih dobaviteljev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "301",
+    "name_en": "Dependent costs of purchasing raw materials and materials",
+    "name_sl": "Odvisni stroški nabave surovin in materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "302",
+    "name_en": "Customs duty and other import duties on raw materials and materials",
+    "name_sl": "Carina in druge uvozne davščine od surovin in materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "303",
+    "name_en": "VAT and other taxes on raw materials and materials",
+    "name_sl": "DDV in druge davščine od surovin in materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "309",
+    "name_en": "Accounting for the purchase of raw materials and materials",
+    "name_sl": "Obračun nabave surovin in materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "310",
+    "name_en": "Inventories of raw materials and materials in a warehouse",
+    "name_sl": "Zaloge surovin in materiala v skladišču",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "311",
+    "name_en": "Inventories of raw materials and materials in a third-party warehouse",
+    "name_sl": "Zaloge surovin in materiala v tujem skladišču",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "312",
+    "name_en": "Inventories of raw materials and materials in transit",
+    "name_sl": "Zaloge surovin in materiala na poti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "316",
+    "name_en": "Inventories of raw materials and materials in the phase of finishing and processing",
+    "name_sl": "Zaloge surovin in materiala v dodelavi in predelavi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "319",
+    "name_en": "Fixed price variance of inventories of raw materials and materials",
+    "name_sl": "Odmiki od stalnih cen zalog surovin in materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "320",
+    "name_en": "Inventories of low-value assets and packaging in a warehouse",
+    "name_sl": "Zaloge drobnega inventarja in embalaže v skladišču",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "321",
+    "name_en": "Inventories of low-value assets and packaging put into use",
+    "name_sl": "Zaloge drobnega inventarja in embalaže, dane v uporabo",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "329",
+    "name_en": "Fixed price variance of low-value assets and packaging",
+    "name_sl": "Odmiki od stalnih cen drobnega inventarja in embalaže",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "400",
+    "name_en": "Costs of materials",
+    "name_sl": "Stroški materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "401",
+    "name_en": "Costs of auxiliary materials",
+    "name_sl": "Stroški pomožnega materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "402",
+    "name_en": "Costs of energy",
+    "name_sl": "Stroški energije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "403",
+    "name_en": "Costs of spare parts for fixed assets and materials for the maintenance of fixed assets",
+    "name_sl": "Stroški nadomestnih delov za osnovna sredstva in materiala za vzdrževanje osnovnih sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "404",
+    "name_en": "Write-offs of low-value assets and packaging",
+    "name_sl": "Odpis drobnega inventarja in embalaže",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "405",
+    "name_en": "Adjustment of costs of materials and low-value assets due to inventory-taking differences found",
+    "name_sl": "Uskladitev stroškov materiala in drobnega inventarja zaradi ugotovljenih popisnih razlik",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "406",
+    "name_en": "Costs of oﬃce supplies and professional literature",
+    "name_sl": "Stroški pisarniškega materiala in strokovne literature",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "407",
+    "name_en": "Other costs of materials",
+    "name_sl": "Drugi stroški materiala",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "410",
+    "name_en": "Costs of services related to creation of products and performance of services",
+    "name_sl": "Stroški storitev pri ustvarjanju proizvodov in opravljanju storitev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "411",
+    "name_en": "Costs of transportation services",
+    "name_sl": "Stroški transportnih storitev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "412",
+    "name_en": "Costs of maintenance",
+    "name_sl": "Stroški storitev v zvezi z vzdrževanjem",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "413",
+    "name_en": "Leases",
+    "name_sl": "Najemnine",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "414",
+    "name_en": "Reimbursement of work-related costs to employees",
+    "name_sl": "Povračila stroškov zaposlenim v zvezi z delom",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "415",
+    "name_en": "Costs of payment transactions, costs of banking services, costs of transactions and insurance premiums",
+    "name_sl": "Stroški plačilnega prometa, stroški bančnih storitev, stroški poslov in zavarovalne premije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "416",
+    "name_en": "Costs of intellectual and personal services",
+    "name_sl": "Stroški intelektualnih in osebnih storitev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "417",
+    "name_en": "Costs of fairs, advertising and entertainment",
+    "name_sl": "Stroški sejmov, reklame in reprezentance",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "418",
+    "name_en": "Costs of services provided by natural persons not engaged in an activity, including charges at the expense of the organisation (costs of work contracts, copyright contracts, atendance fees to employees and other persons...)",
+    "name_sl": "Stroški storitev fizičnih oseb, ki ne opravljajo dejavnosti, skupaj z dajatvami, ki bremenijo organizacijo (stroški po pogodbah o delu, avtorskih pogodbah, sejnine zaposlenim in drugim osebam ...)",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "419",
+    "name_en": "Costs of other services",
+    "name_sl": "Stroški drugih storitev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "430",
+    "name_en": "Amortisation of intangible assets",
+    "name_sl": "Amortizacija neopredmetenih sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "431",
+    "name_en": "Depreciation of buildings",
+    "name_sl": "Amortizacija zgradb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "432",
+    "name_en": "Depreciation of equipment and spare parts",
+    "name_sl": "Amortizacija opreme in nadomestnih delov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "433",
+    "name_en": "Depreciation of low-value assets",
+    "name_sl": "Amortizacija drobnega inventarja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "434",
+    "name_en": "Depreciation of other property, plant and equipment",
+    "name_sl": "Amortizacija drugih opredmetenih osnovnih sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "435",
+    "name_en": "Depreciation of investment property",
+    "name_sl": "Amortizacija naložbenih nepremičnin",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "436",
+    "name_en": "Depreciation of biological assets",
+    "name_sl": "Amortizacija bioloških sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "440",
+    "name_en": "Provisions for restructuring costs of an organisation",
+    "name_sl": "Rezervacije za stroške reorganizacije organizacije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "441",
+    "name_en": "Provisions for guarantees given",
+    "name_sl": "Rezervacije za dana jamstva",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "442",
+    "name_en": "Provisions for onerous contracts",
+    "name_sl": "Rezervacije za kočljive pogodbe",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "449",
+    "name_en": "Provisions for other liabilities from past operations",
+    "name_sl": "Rezervacije za pokrivanje drugih obveznosti iz preteklega poslovanja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "450",
+    "name_en": "Interest costs",
+    "name_sl": "Stroški obresti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "470",
+    "name_en": "Payroll costs",
+    "name_sl": "Plače zaposlenih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "471",
+    "name_en": "Employee payroll allowances",
+    "name_sl": "Nadomestila plač zaposlenih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "472",
+    "name_en": "Costs of employee supplementary pension insurance",
+    "name_sl": "Stroški dodatnega pokojninskega zavarovanja zaposlenih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "473",
+    "name_en": "Annual leave allowances, benefits, allowances (commuting, meal, separation) and other employee remuneration",
+    "name_sl": "Regres za letni dopust, bonitete, povračila (za prevoz na delo in z njega, za prehrano, za ločeno življenje) in drugi prejemki zaposlenih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "474",
+    "name_en": "Employer's payroll contributions, allowances, benefits, reimbursements and other employee remuneration",
+    "name_sl": "Delodajalčevi prispevki od plač, nadomestil plač, bonitet, povračil in drugih prejemkov zaposlenih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "475",
+    "name_en": "Other employer's taxes on salaries, allowances, benefits, reimbursements and other remuneration of employees",
+    "name_sl": "Druge delodajalčeve dajatve od plač, nadomestil plač, bonitet, povračil in drugih prejemkov zaposlenih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "476",
+    "name_en": "Apprenticeship payments including taxes at the expense of an organisation",
+    "name_sl": "Nagrade vajencem skupaj z dajatvami, ki bremenijo organizacijo",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "477",
+    "name_en": "Costs of the management accounted for on bases other than employment relationship",
+    "name_sl": "Stroški poslovodstva, obračunani na drugih podlagah kot je delovno razmerje",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "478",
+    "name_en": "Other labour costs",
+    "name_sl": "Drugi stroški dela",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "479",
+    "name_en": "Provisions for pensions, jubilee benefits and termination benefits upon retirement",
+    "name_sl": "Rezervacije za pokojnine, jubilejne nagrade in odpravnine ob upokojitvi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "480",
+    "name_en": "Taxes not dependent on labour costs or other types of costs",
+    "name_sl": "Dajatve, ki niso odvisne od stroškov dela ali drugih vrst stroškov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "481",
+    "name_en": "Expenses for environmental protection",
+    "name_sl": "Izdatki za varstvo okolja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "482",
+    "name_en": "Payments to secondary-school pupils, students during working practice, including taxes",
+    "name_sl": "Nagrade dijakom in študentom na delovni praksi skupaj z dajatvami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "483",
+    "name_en": "Scholarships to secondary school pupils and students",
+    "name_sl": "Štipendije dijakom in študentom",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "484",
+    "name_en": "Social security contributions of sole proprietors – individuals",
+    "name_sl": "Prispevki za socialno varnost samostojnih podjetnikov posameznikov",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "486",
+    "name_en": "Reimbursement of costs to sole proprietors – individuals",
+    "name_sl": "Povračila stroškov samostojnim podjetnikom posameznikom",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "488",
+    "name_en": "Grants to other societies and legal entities",
+    "name_sl": "Dotacije drugim društvom in pravnim osebam",
+    "uses_en": ["SD"],
+    "uses_sl": ["DI"]
+  },
+  {
+    "code": "489",
+    "name_en": "Other costs",
+    "name_sl": "Ostali stroški",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "490",
+    "name_en": "Transfer of costs to inventories",
+    "name_sl": "Prenos stroškov v zaloge",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "491",
+    "name_en": "Transfer of costs directly to expenses",
+    "name_sl": "Prenos stroškov neposredno v odhodke",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "600",
+    "name_en": "Work-in-progress",
+    "name_sl": "Nedokončana proizvodnja",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "601",
+    "name_en": "Services in progress",
+    "name_sl": "Nedokončane storitve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "602",
+    "name_en": "Semi-finished products",
+    "name_sl": "Polizdelki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "604",
+    "name_en": "Production in the phase of finishing and processing",
+    "name_sl": "Proizvodnja v dodelavi in predelavi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "609",
+    "name_en": "Price variances of work-in-progress and services",
+    "name_sl": "Odmiki od cen nedokončanih proizvodnje in storitev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "610",
+    "name_en": "Harvested agricultural produce at fair value",
+    "name_sl": "Pospravljeni pridelki po pošteni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "618",
+    "name_en": "Harvested agricultural produce at cost",
+    "name_sl": "Pospravljeni pridelki po nabavni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "619",
+    "name_en": "Price variances of agricultural produce",
+    "name_sl": "Odmiki od cen pridelkov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "630",
+    "name_en": "Products in own warehouse",
+    "name_sl": "Proizvodi v lastnem skladišču",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "631",
+    "name_en": "Products in a third-party warehouse",
+    "name_sl": "Proizvodi v tujem skladišču",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "632",
+    "name_en": "Products in transit",
+    "name_sl": "Proizvodi na poti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "633",
+    "name_en": "Products in own store",
+    "name_sl": "Proizvodi v lastni prodajalni",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "634",
+    "name_en": "Accrued VAT on product in the store",
+    "name_sl": "Vračunani DDV od proizvodov v prodajalni",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "635",
+    "name_en": "Products in the phase of finishing and processing",
+    "name_sl": "Proizvodi v dodelavi in predelavi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "638",
+    "name_en": "Biological assets that are inventories",
+    "name_sl": "Biološka sredstva, ki so zaloge",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "639",
+    "name_en": "Price variances of products",
+    "name_sl": "Odmiki od cen proizvodov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "650",
+    "name_en": "Value of goods according to the invoices of suppliers",
+    "name_sl": "Vrednost blaga po obračunih dobaviteljev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "651",
+    "name_en": "Dependent costs of purchasing goods",
+    "name_sl": "Odvisni stroški nabave blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "652",
+    "name_en": "Customs duty and other import duties on goods",
+    "name_sl": "Carina in druge uvozne davščine od blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "653",
+    "name_en": "VAT and other taxes on goods",
+    "name_sl": "DDV in druge davščine od blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "659",
+    "name_en": "Accounting for the purchase of goods",
+    "name_sl": "Obračun nabave blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "660",
+    "name_en": "Goods in own warehouse",
+    "name_sl": "Blago v lastnem skladišču",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "661",
+    "name_en": "Goods in a third-party warehouse",
+    "name_sl": "Blago v tujem skladišču",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "662",
+    "name_en": "Goods in transit",
+    "name_sl": "Blago na poti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "663",
+    "name_en": "Goods in own store",
+    "name_sl": "Blago v lastni prodajalni",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "664",
+    "name_en": "VAT accrued on inventories of goods",
+    "name_sl": "DDV, vračunan v zalogah blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "669",
+    "name_en": "Accrued price difference of inventories of goods",
+    "name_sl": "Vračunana razlika v cenah zalog blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "670",
+    "name_en": "Property, plant and equipment held for sale",
+    "name_sl": "Opredmetena osnovna sredstva, namenjena prodaji",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "671",
+    "name_en": "Investment property measured using a cost model, held for sale",
+    "name_sl": "Naložbene nepremičnine, vrednotene po modelu nabavne vrednosti, namenjene prodaji",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "672",
+    "name_en": "Other non-current assets held for sale",
+    "name_sl": "Druga nekratkoročna sredstva, namenjena prodaji",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "700",
+    "name_en": "Value of products and services sold",
+    "name_sl": "Vrednost prodanih poslovnih učinkov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "701",
+    "name_en": "Value of capitalised own products and own services",
+    "name_sl": "Vrednost usredstvenih lastnih proizvodov in storitev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "702",
+    "name_en": "Cost of materials and goods sold",
+    "name_sl": "Nabavna vrednost prodanih materiala in blaga",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "703",
+    "name_en": "Other operating expenses",
+    "name_sl": "Drugi poslovni odhodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "704",
+    "name_en": "Expenses for valuation of biological assets and harvesting of agricultural produce",
+    "name_sl": "Odhodki iz vrednotenja bioloških sredstev in pospravitve kmetijskih pridelkov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "710",
+    "name_en": "Value of products and services sold",
+    "name_sl": "Vrednost prodanih poslovnih učinkov",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "711",
+    "name_en": "Cost of materials and goods sold",
+    "name_sl": "Nabavna vrednost prodanih materiala in blaga",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "712",
+    "name_en": "Selling costs",
+    "name_sl": "Stroški prodajanja",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "713",
+    "name_en": "General and administrative costs (purchasing and management)",
+    "name_sl": "Stroški splošnih dejavnosti (nabave in uprave)",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "714",
+    "name_en": "Other costs no longer held in inventories",
+    "name_sl": "Drugi stroški, ki se ne zadržujejo v zalogah",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "720",
+    "name_en": "Revaluation operating expenses associated with intangible assets, property, plant and equipment and investment property",
+    "name_sl": "Prevrednotovalni poslovni odhodki v zvezi z neopredmetenimi sredstvi, opredmetenimi osnovnimi sredstvi in naložbenimi nepremičninami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "721",
+    "name_en": "Revaluation operating expenses associated with inventories",
+    "name_sl": "Prevrednotovalni poslovni odhodki v zvezi z zalogami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "722",
+    "name_en": "Revaluation operating expenses resulting from impairment losses associated with operating receivables",
+    "name_sl": "Prevrednotovalni poslovni odhodki kot posledica prevrednotenja zaradi oslabitve v zvezi s poslovnimi terjatvami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "723",
+    "name_en": "Revaluation operating expenses resulting from write-downs associated with operating receivables",
+    "name_sl": "Prevrednotovalni poslovni odhodki kot posledica odpisov v zvezi s poslovnimi terjatvami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "724",
+    "name_en": "Other revaluation operating expenses associated with current assets, other than investments",
+    "name_sl": "Drugi prevrednotovalni poslovni odhodki v zvezi s kratkoročnimi sredstvi, razen s finančnimi naložbami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "740",
+    "name_en": "Expenses for loans received from organisations in the group",
+    "name_sl": "Odhodki iz posojil, prejetih od organizacij v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "741",
+    "name_en": "Expenses for bank loans",
+    "name_sl": "Odhodki iz posojil, prejetih od bank",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "742",
+    "name_en": "Expenses for bonds issued",
+    "name_sl": "Odhodki iz izdanih obveznic",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "743",
+    "name_en": "Expenses for other financial liabilities",
+    "name_sl": "Odhodki iz drugih finančnih obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "744",
+    "name_en": "Expenses for operating liabilities to organisations in the group",
+    "name_sl": "Odhodki iz poslovnih obveznosti do organizacij v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "745",
+    "name_en": "Expenses for liabilities to suppliers and bills payable",
+    "name_sl": "Odhodki iz obveznosti do dobaviteljev in meničnih obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "746",
+    "name_en": "Expenses for other operating liabilities including interest costs for calculation of termination benefits upon retirement",
+    "name_sl": "Odhodki iz drugih poslovnih obveznosti,vključno za stroške obresti iz naslova preračuna odpravnin ob upokojitvi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "747",
+    "name_en": "Expenses for assets allocated at fair value through profit or loss and expenses for valuation of investment property at fair value",
+    "name_sl": "Odhodki iz sredstev, razporejenih po pošteni vrednosti prek poslovnega izida in odhodki iz vrednotenja nalož- benih nepremičnin po pošteni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "748",
+    "name_en": "Expenses for impairment of investments",
+    "name_sl": "Odhodki iz oslabitve finančnih naložb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "749",
+    "name_en": "Expenses for derecognition of investments and investment property measured at fair value",
+    "name_sl": "Odhodki iz odprave pripoznanja finančnih naložb in naložbenih nepremičnin, izmerjenih po pošteni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "752",
+    "name_en": "Penalties that are not related to products and services",
+    "name_sl": "Denarne kazni, ki niso povezane s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "753",
+    "name_en": "Compensation that is not related to products and services",
+    "name_sl": "Odškodnine, ki niso povezane s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "754",
+    "name_en": "Donations",
+    "name_sl": "Donacije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "755",
+    "name_en": "Subsidies, grants and similar expenses not related to products and services",
+    "name_sl": "Subvencije, dotacije in podobni odhodki, ki niso povezani s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "758",
+    "name_en": "Negative euro offsets",
+    "name_sl": "Negativne evrske izravnave",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "759",
+    "name_en": "Other expenses not related to products and services",
+    "name_sl": "Ostali odhodki, ki niso povezani s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "760",
+    "name_en": "Revenue from the sale of products and services in the domestic markets",
+    "name_sl": "Prihodki od prodaje proizvodov in storitev na domačem trgu",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "761",
+    "name_en": "Revenue from the sale of products and services in the foreign markets",
+    "name_sl": "Prihodki od prodaje proizvodov in storitev na tujem trgu",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "762",
+    "name_en": "Revenue from the sale of merchandise and materials in the domestic markets",
+    "name_sl": "Prihodki od prodaje trgovskega blaga in materiala na domačem trgu",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "763",
+    "name_en": "Revenue from the sale of merchandise and materials in the foreign markets",
+    "name_sl": "Prihodki od prodaje trgovskega blaga in materiala na tujem trgu",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "764",
+    "name_en": "Revenue from valuation of biological assets and harvesting of agricultural produce",
+    "name_sl": "Prihodki iz vrednotenja bioloških sredstev in pospravitve kmetijskih pridelkov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "765",
+    "name_en": "Lease revenue",
+    "name_sl": "Prihodki od najemnin",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "766",
+    "name_en": "Revenue from reversal of provisions and deferred costs and accrued revenue due to accrued costs or expenses",
+    "name_sl": "Prihodki od odprave rezervacij in pasivnih časovnih razmejitev na račun vnaprej vračunanih stroškov oziroma odhodkov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "767",
+    "name_en": "Revenue from business combinations (revaluation surplus – badwill)",
+    "name_sl": "Prihodki od poslovnih združitev (presežek iz prevrednotenja – slabo ime)",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "768",
+    "name_en": "Other revenue associated with products and services (subsidies, grants, recourse, offsets, premiums ...)",
+    "name_sl": "Drugi prihodki, povezani s poslovnimi učinki (subvencije, dotacije, regresi, kompenzacije, premije ...)",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "769",
+    "name_en": "Revaluation operating revenue",
+    "name_sl": "Prevrednotovalni poslovni prihodki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "770",
+    "name_en": "Financial revenue from shares in organisations in the group",
+    "name_sl": "Finančni prihodki iz deležev v organizacijah v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "771",
+    "name_en": "Financial revenue from shares in associated organisations and jointly-controlled organisations",
+    "name_sl": "Finančni prihodki iz deležev v pridruženih organizacijah in skupaj obvladovanih organizacijah",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "772",
+    "name_en": "Financial revenue from shares in other organisations",
+    "name_sl": "Finančni prihodki iz deležev v drugih organizacijah",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "773",
+    "name_en": "Financial revenue from other investments",
+    "name_sl": "Finančni prihodki iz drugih naložb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "774",
+    "name_en": "Financial revenue from loans granted to organisations in the group",
+    "name_sl": "Finančni prihodki iz posojil, danih organizacijam v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "775",
+    "name_en": "Financial revenue from loans granted to others (also from deposits)",
+    "name_sl": "Finančni prihodki iz posojil, danih drugim (tudi od depozitov)",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "776",
+    "name_en": "Financial revenue from operating receivables due from organisations in the group",
+    "name_sl": "Finančni prihodki iz poslovnih terjatev do organizacij v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "777",
+    "name_en": "Financial revenue from operating receivables due from others",
+    "name_sl": "Finančni prihodki iz poslovnih terjatev do drugih",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "778",
+    "name_en": "Financial revenue from financial assets allocated at fair value through profit or loss",
+    "name_sl": "Finančni prihodki iz finančnih sredstev, razporejenih po pošteni vrednosti prek poslovnega izida",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "779",
+    "name_en": "Financial revenue from valuation of investment property at fair value and revenue from disposal of investment property measured at fair value",
+    "name_sl": "Finančni prihodki iz vrednotenja naložbenih nepremičnin po pošteni vrednosti in prihodki od odtujitve naložbenih nepremičnin, merjenih po pošteni vrednosti",
+    "uses_en": ["C", "SP", "CO", "SD"],
+    "uses_sl": ["D", "P", "Z", "DI"]
+  },
+  {
+    "code": "784",
+    "name_en": "Donations",
+    "name_sl": "Donacije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "785",
+    "name_en": "Subsidies, grants and similar revenue not related to products and services",
+    "name_sl": "Subvencije, dotacije in podobni prihodki, ki niso povezani s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "786",
+    "name_en": "Compensation not related to products and services",
+    "name_sl": "Odškodnine, ki niso povezane s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "787",
+    "name_en": "Penalties not related to products and services",
+    "name_sl": "Kazni, ki niso povezane s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "788",
+    "name_en": "Positive euro offsets",
+    "name_sl": "Pozitivne evrske izravnave",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "789",
+    "name_en": "Other revenue not related to products and services",
+    "name_sl": "Ostali prihodki, ki niso povezani s poslovnimi učinki",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "790",
+    "name_en": "Capitalised own products and own services",
+    "name_sl": "Usredstveni lastni proizvodi in lastne storitve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "800",
+    "name_en": "Profit or loss before tax and/or revenue surplus or expense surplus",
+    "name_sl": "Dobiček ali izguba pred obdavčitvijo oziroma presežek prihodkov ali presežek odhodkov",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "801",
+    "name_en": "Determination and transfer of revenue of sole proprietors- individuals",
+    "name_sl": "Ugotovitev in prenos dohodka samostojnih podjetnikov posameznikov",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "803",
+    "name_en": "Determination and transfer of loss",
+    "name_sl": "Ugotovitev in prenos negativnega poslovnega izida",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "804",
+    "name_en": "Revenue surplus from previous years intended to cover expense surplus for the accounting period",
+    "name_sl": "Presežek prihodkov iz prejšnjih let, namenjen pokritju presežka odhodkov obračunskega obdobja",
+    "uses_en": ["N", "SD"],
+    "uses_sl": ["N", "DI"]
+  },
+  {
+    "code": "805",
+    "name_en": "Expense surplus from previous years covered by revenue surplus of the accounting period",
+    "name_sl": "Presežek odhodkov iz prejšnjih let, ki se pokriva iz presežka prihodkov obračunskega obdobja",
+    "uses_en": ["N", "SD"],
+    "uses_sl": ["N", "DI"]
+  },
+  {
+    "code": "806",
+    "name_en": "Total revenue surplus or total expense surplus",
+    "name_sl": "Celotni presežek prihodkov ali celotni presežek odhodkov",
+    "uses_en": ["N", "SD"],
+    "uses_sl": ["N", "DI"]
+  },
+  {
+    "code": "810",
+    "name_en": "Corporate income tax",
+    "name_sl": "Davek od dohodkov pravnih oseb",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "812",
+    "name_en": "Other taxes not presented under other items",
+    "name_sl": "Drugi davki, ki niso izkazani v drugih postavkah",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "813",
+    "name_en": "Revenue (expenses) from deferred tax",
+    "name_sl": "Prihodki (odhodki) iz naslova odloženega davka",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "815",
+    "name_en": "Net profit for the year and/or net revenue surplus",
+    "name_sl": "Čisti dobiček poslovnega leta oziroma čisti presežek prihodkov",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "820",
+    "name_en": "Net profit to cover losses carried forward",
+    "name_sl": "Čisti dobiček za kritje prenesenih izgub",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "821",
+    "name_en": "Net profit to form legal reserves",
+    "name_sl": "Čisti dobiček za oblikovanje zakonskih rezerv",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "822",
+    "name_en": "Net profit to form reserves for own shares and/or interests",
+    "name_sl": "Čisti dobiček za oblikovanje rezerv za lastne delnice oziroma deleže",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "823",
+    "name_en": "Net profit to form statutory reserves",
+    "name_sl": "Čisti dobiček za oblikovanje statutarnih rezerv",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "824",
+    "name_en": "Net profit for other revenue reserves",
+    "name_sl": "Čisti dobiček za druge rezerve iz dobička",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "825",
+    "name_en": "Net revenue surplus for a specific purpose (fund)",
+    "name_sl": "Čisti presežek prihodkov za določen namen (sklad)",
+    "uses_en": ["N", "SD"],
+    "uses_sl": ["N", "DI"]
+  },
+  {
+    "code": "829",
+    "name_en": "Transfer of unused part of net profit and/or net revenue surplus for the year",
+    "name_sl": "Prenos neuporabljenega dela čistega dobička oziroma čistega presežka prihodkov poslovnega leta",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "890",
+    "name_en": "Net loss for the year and/or net expense surplus",
+    "name_sl": "Čista izguba tekočega leta oziroma čisti presežek odhodkov",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "899",
+    "name_en": "Carry-forward of net loss for the year and/or carry-forward of net expense surplus",
+    "name_sl": "Prenos čiste izgube tekočega leta oziroma prenos čistega presežka odhodkov",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "900",
+    "name_en": "Initial share capital – shares",
+    "name_sl": "Osnovni delniški kapital – delnice",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "901",
+    "name_en": "Initial capital – capital shares or equity contributions",
+    "name_sl": "Osnovni kapital – kapitalski deleži ali kapitalska vloga",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "902",
+    "name_en": "Starting capital of sole proprietors – individuals",
+    "name_sl": "Začetni kapital samostojnih podjetnikov posameznikov",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "905",
+    "name_en": "Undistributable cooperative capital",
+    "name_sl": "Nerazdružljivi zadružni kapital",
+    "uses_en": ["CO"],
+    "uses_sl": ["Z"]
+  },
+  {
+    "code": "906",
+    "name_en": "Interests of cooperative members",
+    "name_sl": "Deleži članov zadruge",
+    "uses_en": ["CO"],
+    "uses_sl": ["Z"]
+  },
+  {
+    "code": "907",
+    "name_en": "Founding and subsequent contributions",
+    "name_sl": "Ustanovitvena in kasnejše vloge",
+    "uses_en": ["N", "SD"],
+    "uses_sl": ["N", "DI"]
+  },
+  {
+    "code": "909",
+    "name_en": "Uncalled-up capital (as a deductible item)",
+    "name_sl": "Nevpoklicani kapital (odbitna postavka)",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "910",
+    "name_en": "Payments in excess of the minimum issue amounts of shares and/or interests (equity surplus paid)",
+    "name_sl": "Vplačila nad najmanjšimi emisijskimi zneski delnic oziroma deležev (vplačani presežek kapitala)",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "911",
+    "name_en": "Payments in excess of the carrying amount on the disposal of temporarily repurchased own shares and/or interests",
+    "name_sl": "Vplačila nad knjigovodsko vrednostjo pri odtujitvi začasno odkupljenih lastnih delnic oziroma deležev",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "912",
+    "name_en": "Payments in excess of the minimum issue amounts of equity obtained by the issue of convertible bonds and bonds with a share purchase option",
+    "name_sl": "Vplačila nad najmanjšim emisijskim zneskom kapitala, pridobljena z izdajo zamenljivih obveznic in obveznic z delniško nakupno opcijo",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "913",
+    "name_en": "Payments to obtain additional rights atached to shares and/or interests",
+    "name_sl": "Vplačila za pridobitev dodatnih pravic iz delnic oziroma deležev",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "914",
+    "name_en": "Other payments of equity based on articles of association",
+    "name_sl": "Druga vplačila kapitala na podlagi statuta",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "915",
+    "name_en": "Amounts arising from simplified reductions in initial capital and amounts arising from reductions in share capital through the withdrawal of shares or interests",
+    "name_sl": "Zneski iz poenostavljenega zmanjšanja osnovnega kapitala in zneski zmanjšanja osnovnega kapitala z umikom delnic oziroma deležev",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "916",
+    "name_en": "General equity revaluation adjustments and the amounts transferred from revaluation reserves",
+    "name_sl": "Splošni prevrednotovalni popravek kapitala in zneski, preneseni iz revalorizacijske rezerve",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "917",
+    "name_en": "Amounts of effects of confirmed compulsory setlement",
+    "name_sl": "Zneski iz učinkov potrjene prisilne poravnave",
+    "uses_en": ["C", "SP", "CO"],
+    "uses_sl": ["D", "P", "Z"]
+  },
+  {
+    "code": "918",
+    "name_en": "Transfers of physical assets in course of operations",
+    "name_sl": "Prenosi stvarnega premoženja med opravljanjem dejavnosti",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "919",
+    "name_en": "Inﬂows and outilows between an enterprise and a household",
+    "name_sl": "Pritoki in odtoki med podjetjem in gospodinjstvom",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "920",
+    "name_en": "Legal reserves",
+    "name_sl": "Zakonske rezerve",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "921",
+    "name_en": "Reserves for own shares and/or own interests",
+    "name_sl": "Rezerve za lastne delnice oziroma lastne poslovne deleže",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "922",
+    "name_en": "Statutory reserves",
+    "name_sl": "Statutarne rezerve",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "923",
+    "name_en": "Other revenue reserves",
+    "name_sl": "Druge rezerve iz dobička",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "924",
+    "name_en": "Voluntary cooperative reserves",
+    "name_sl": "Prostovoljne zadružne rezerve",
+    "uses_en": ["CO"],
+    "uses_sl": ["Z"]
+  },
+  {
+    "code": "925",
+    "name_en": "Voluntary cooperative funds",
+    "name_sl": "Prostovoljni zadružni skladi",
+    "uses_en": ["CO"],
+    "uses_sl": ["Z"]
+  },
+  {
+    "code": "926",
+    "name_en": "Part of net revenue surplus for a specific purpose (fund)",
+    "name_sl": "Del čistega presežka prihodkov za določen namen (sklad)",
+    "uses_en": ["N", "SD"],
+    "uses_sl": ["N", "DI"]
+  },
+  {
+    "code": "929",
+    "name_en": "Obtained own shares and/or own interests (as a deductible item)",
+    "name_sl": "Pridobljene lastne delnice oziroma lastni poslovni deleži (odbitna postavka)",
+    "uses_en": ["C"],
+    "uses_sl": ["D"]
+  },
+  {
+    "code": "930",
+    "name_en": "Retained net profit from previous periods",
+    "name_sl": "Preneseni čisti dobiček iz prejšnjih let",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "931",
+    "name_en": "Retained net loss from previous periods",
+    "name_sl": "Prenesena čista izguba iz prejšnjih let",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "932",
+    "name_en": "Unused part of net profit for the year and/or unallocated net revenue surplus",
+    "name_sl": "Neuporabljeni del čistega dobička poslovnega leta oziroma nerazporejeni čisti presežek prihodkov",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "933",
+    "name_en": "Net loss for the year and/or net expense surplus",
+    "name_sl": "Čista izguba poslovnega leta oziroma čisti presežek odhodkov",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "935",
+    "name_en": "Revenue of sole proprietors – individuals",
+    "name_sl": "Dohodek samostojnih podjetnikov posameznikov",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "937",
+    "name_en": "Loss of sole proprietors – individuals",
+    "name_sl": "Negativni poslovni izid samostojnih podjetnikov posameznikov",
+    "uses_en": ["SP"],
+    "uses_sl": ["P"]
+  },
+  {
+    "code": "940",
+    "name_en": "Revaluation surplus from revaluation of land",
+    "name_sl": "Revalorizacijske rezerve iz prevrednotenja zemljišč",
+    "uses_en": ["C", "SP", "CO", "SD"],
+    "uses_sl": ["D", "P", "Z", "DI"]
+  },
+  {
+    "code": "941",
+    "name_en": "Revaluation surplus from revaluation of buildings",
+    "name_sl": "Revalorizacijske rezerve iz prevrednotenja zgradb",
+    "uses_en": ["C", "SP", "SD", "CO"],
+    "uses_sl": ["D", "P", "DI", "Z"]
+  },
+  {
+    "code": "949",
+    "name_en": "Allowance for revaluation surplus for deferred tax assets",
+    "name_sl": "Popravek vrednosti revalorizacijskih rezerv za odložene obveznosti za davek",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "954",
+    "name_en": "Reserves arising from valuation of long-term investments at fair value",
+    "name_sl": "Rezerve, nastale zaradi vrednotenja dolgoročnih finančnih naložb po pošteni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "955",
+    "name_en": "Reserves arising from valuation of short-term investment at fair value",
+    "name_sl": "Rezerve, nastale zaradi vrednotenja kratkoročnih finančnih naložb po pošteni vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "956",
+    "name_en": "Amounts of proved profits or losses on changes in the fair value of available-for-sale financial assets that are not part of a hedging relationship",
+    "name_sl": "Zneski dokazanega dobička ali dokazane izgube iz spremembe poštene vrednosti finančnih sredstev, razpoložljivih za prodajo, ki ni del razmerja pri varovanju vrednosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "957",
+    "name_en": "Actuarial gains or losses on certain benefits",
+    "name_sl": "Aktuarski dobički ali izgube od določenih zaslužkov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "959",
+    "name_en": "Allowance for reserves due to fair value measurement for deferred tax assets",
+    "name_sl": "Popravek vrednosti rezerv, nastalih zaradi vrednotenja po pošteni vrednosti za odložene obveznosti za davek",
+    "uses_en": ["C", "CO", "N"],
+    "uses_sl": ["D", "Z", "N"]
+  },
+  {
+    "code": "960",
+    "name_en": "Provisions for restructuring costs of an organisation",
+    "name_sl": "Rezervacije za stroške reorganizacije organizacije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "961",
+    "name_en": "Provisions for future costs or expenses of decommissioning and reinstatement and other similar provisions",
+    "name_sl": "Rezervacije za pokrivanje prihodnjih stroškov oziroma odhodkov zaradi razgradnje in ponovne vzpostavitve prvotnega stanja ter druge podobne rezervacije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "962",
+    "name_en": "Provisions for onerous contracts",
+    "name_sl": "Rezervacije za kočljive pogodbe",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "963",
+    "name_en": "Provisions for pensions, jubilee benefits and termination benefits upon retirement",
+    "name_sl": "Rezervacije za pokojnine, jubilejne nagrade in odpravnine ob upokojitvi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "964",
+    "name_en": "Provisions for guarantees given",
+    "name_sl": "Rezervacije za dana jamstva",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "965",
+    "name_en": "Other provisions for long-term accrued costs",
+    "name_sl": "Druge rezervacije iz naslova dolgoročno vnaprej vračunanih stroškov",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "966",
+    "name_en": "Government grants received",
+    "name_sl": "Prejete državne podpore",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "967",
+    "name_en": "Donations received",
+    "name_sl": "Prejete donacije",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "968",
+    "name_en": "Other long-term accrued costs and deferred revenue",
+    "name_sl": "Druge dolgoročne pasivne časovne razmejitve",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "970",
+    "name_en": "Long-term loans received from organisations in the group",
+    "name_sl": "Dolgoročna posojila, dobljena pri organizacijah v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "971",
+    "name_en": "Long-term loans received from associated organisations",
+    "name_sl": "Dolgoročna posojila, dobljena pri pridruženih organizacijah",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "972",
+    "name_en": "Long-term loans received from banks and organisations in the country",
+    "name_sl": "Dolgoročna posojila, dobljena pri bankah in organizacijah v državi",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "973",
+    "name_en": "Long-term loans received from banks and organisations abroad",
+    "name_sl": "Dolgoročna posojila, dobljena pri bankah in organizacijah v tujini",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "974",
+    "name_en": "Long-term financial liabilities for bonds and bills payable",
+    "name_sl": "Dolgoročne finančne obveznosti v zvezi z obveznicami in menicami",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "975",
+    "name_en": "Long-term lease debts",
+    "name_sl": "Dolgoročni dolgovi iz najema",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "976",
+    "name_en": "Long-term financial liabilities to natural persons",
+    "name_sl": "Dolgoročne finančne obveznosti do fizičnih oseb",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "979",
+    "name_en": "Other long-term financial liabilities",
+    "name_sl": "Druge dolgoročne finančne obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "980",
+    "name_en": "Long-term loans received on the basis of loan agreements from organisations in the group",
+    "name_sl": "Dolgoročni krediti, dobljeni na podlagi kreditnih pogodb od organizacij v skupini",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "981",
+    "name_en": "Long-term loans received on the basis of loan agreements from associated organisations and jointly-controlled organisations",
+    "name_sl": "Dolgoročni krediti, dobljeni na podlagi kreditnih pogodb od pridruženih organizacij in skupaj obvladovanih organizacij",
+    "uses_en": ["C", "CO"],
+    "uses_sl": ["D", "Z"]
+  },
+  {
+    "code": "982",
+    "name_en": "Long-term loans received from suppliers in the country",
+    "name_sl": "Dolgoročni krediti, dobljeni od drugih domačih dobaviteljev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "983",
+    "name_en": "Long-term loans received from other foreign suppliers",
+    "name_sl": "Dolgoročni krediti, dobljeni od drugih tujih dobaviteljev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "985",
+    "name_en": "Long-term bills payable",
+    "name_sl": "Dolgoročne menične obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "986",
+    "name_en": "Long-term advances and collaterals received",
+    "name_sl": "Dolgoročni dobljeni predujmi in varščine",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "988",
+    "name_en": "Deferred tax assets",
+    "name_sl": "Odložene obveznosti za davek",
+    "uses_en": ["C", "CO", "N"],
+    "uses_sl": ["D", "Z", "N"]
+  },
+  {
+    "code": "989",
+    "name_en": "Other long-term operating liabilities",
+    "name_sl": "Druge dolgoročne poslovne obveznosti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "990",
+    "name_en": "Rented, borrowed and leased (third-party) assets",
+    "name_sl": "Najeta, izposojena in zakupljena (tuja) sredstva",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "991",
+    "name_en": "Bills of exchange and other securities received as security for payments",
+    "name_sl": "Menice in drugi vrednostni papirji, prejeti za zavarovanje plačil",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "992",
+    "name_en": "Goods received for commission and consignment sales",
+    "name_sl": "Blago, prejeto v komisijsko in konsignacijsko prodajo",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "993",
+    "name_en": "Monetary values issued for accounting for within the organisation",
+    "name_sl": "Vrednotnice, izdane za obračunavanje znotraj organizacije",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "994",
+    "name_en": "Other off-balance sheet accounts of assets",
+    "name_sl": "Drugi aktivni zunajbilančni konti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "995",
+    "name_en": "Owners of rented, borrowed and leased assets",
+    "name_sl": "Lastniki najetih, izposojenih in zakupljenih sredstev",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "996",
+    "name_en": "Debtors who secured their payments by bills of exchange and other securities",
+    "name_sl": "Dolžniki, ki so zavarovali plačila z menicami in drugimi vrednostnimi papirji",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "997",
+    "name_en": "Liabilities for goods received for commission and consignment sales",
+    "name_sl": "Obveznosti iz blaga, prejetega v komisijsko in konsignacijsko prodajo",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
+  {
+    "code": "998",
+    "name_en": "Nominal value of monetary values issued for accounting for within the organisation",
+    "name_sl": "Nominalna vrednost vrednotnic, izdanih za obračunavanje znotraj organizacije",
+    "uses_en": ["C", "CO", "N", "SD"],
+    "uses_sl": ["D", "Z", "N", "DI"]
+  },
+  {
+    "code": "999",
+    "name_en": "Other off-balance sheet accounts of liabilities",
+    "name_sl": "Drugi pasivni zunajbilančni konti",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  }
+]
