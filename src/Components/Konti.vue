@@ -17,7 +17,7 @@ const filteredAccounts = ref([])
 function searchAccounts(query) {
   filteredAccounts.value = fuzzysort.go(query.trim(), accounts, {
     key: 'code',
-    limit: 5,
+    limit: 15,
     threshold: -100,
   })
 }
@@ -35,16 +35,15 @@ function compareCodes(a, b) {
 
 <template>
   <div>
-    Hello, world!
-
     <div class="mt-2 w-full max-w-xl">
       <InputLabel for="accounts" value="Account" />
       <TextInput
-        id="accounts"
-        type="text"
-        class=""
-        v-model="accountsQuery"
-      />
+      id="accounts"
+      type="text"
+      class=""
+      placeholder="110"
+      v-model="accountsQuery"
+    />
     </div>
 
     <div class="space-y-5">
