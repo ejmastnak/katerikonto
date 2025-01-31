@@ -1,0 +1,73 @@
+<script setup>
+import { ref, watch, inject, onBeforeUnmount, onMounted } from 'vue'
+import fuzzysort from 'fuzzysort'
+import throttle from "lodash/throttle";
+import TextInput from '@/Components/TextInput.vue'
+import InputLabel from '@/Components/InputLabel.vue'
+import Listing from './Listing.vue'
+import Class from './Class.vue'
+
+const classesArray = inject('classesArray')
+
+// fuzzysort options
+const throttlems = 200
+const threshold = -100
+const limit = 20
+
+const classesQuery = ref("")
+const filteredClasses = ref([])
+function searchClasses(query) {
+  filteredClasses.value = fuzzysort.go(query.trim(), classesArray, {
+    key: 'code',
+    limit: limit,
+    threshold: threshold,
+  })
+}
+
+watch(classesQuery, throttle(function (value) {
+  searchClasses(value)
+}, throttlems))
+
+watch(classesQuery, throttle(function (value) {
+  searchClasses(value)
+}, throttlems))
+
+function compareCodes(a, b) {
+  return a.target - b.target;
+}
+
+</script>
+
+<template>
+  <div>
+    <!-- Search input for classes -->
+    <div class="w-fit mx-auto">
+      <InputLabel for="classes" value="Class code" />
+      <TextInput
+      id="classes"
+      type="text"
+      placeholder="e.g. 110, 220, 760"
+      v-model="classesQuery"
+    />
+      <!-- No results found message -->
+      <p 
+        v-if="classesQuery && filteredClasses.length === 0" 
+        class="mt-2 text-gray-500"
+      >
+        No results!
+      </p>
+    </div>
+
+    <!-- Classes listing -->
+    <Listing v-show="filteredClasses.length">
+      <li
+        v-for="srsClass in filteredClasses.sort(compareCodes)"
+        :key="srsClass.obj.code" 
+      >
+        <Class 
+        :srsClass="srsClass.obj"
+      />
+      </li>
+    </Listing>
+  </div>
+</template>
