@@ -1,38 +1,47 @@
-{
-  "0": {
+[
+  {
+    "code": "0",
     "name_en": "LONG-TERM ASSETS",
     "name_sl": "DOLGOROČNA SREDSTVA"
   },
-  "1": {
+  {
+    "code": "1",
     "name_en": "CURRENT ASSETS, OTHER THAN INVENTORIES AND SHORT-TERM DEFERRED COSTS AND ACCRUED REVENUE",
     "name_sl": "KRATKOROČNA SREDSTVA, RAZEN ZALOG, IN KRATKOROČNE AKTIVNE ČASOVNE RAZMEJITVE"
   },
-  "2": {
+  {
+    "code": "2",
     "name_en": "SHORT-TERM LIABILITIES (DEBTS) AND SHORT-TERM ACCRUED COSTS AND DEFERRED REVENUE",
     "name_sl": "KRATKOROČNE OBVEZNOSTI (DOLGOVI) IN KRATKOROČNE PASIVNE ČASOVNE RAZMEJITVE"
   },
-  "3": {
+  {
+    "code": "3",
     "name_en": "INVENTORIES OF RAW MATERIALS AND MATERIALS",
     "name_sl": "ZALOGE SUROVIN IN MATERIALA"
   },
-  "4": {
+  {
+    "code": "4",
     "name_en": "COSTS",
     "name_sl": "STROŠKI"
   },
-  "6": {
+  {
+    "code": "6",
     "name_en": "INVENTORIES OF PRODUCTS, SERVICES, GOODS AND NONCURRENT ASSETS (DISPOSAL GROUPS) HELD FOR SALE",
     "name_sl": "ZALOGE PROIZVODOV, STORITEV, BLAGA IN NEKRATKOROČNIH SREDSTEV (SKUPINE ZA ODTUJITEV) ZA PRODAJO"
   },
-  "7": {
+  {
+    "code": "7",
     "name_en": "EXPENSES AND REVENUE",
     "name_sl": "ODHODKI IN PRIHODKI"
   },
-  "8": {
+  {
+    "code": "8",
     "name_en": "PROFIT OR LOSS",
     "name_sl": "POSLOVNI IZID"
   },
-  "9": {
+  {
+    "code": "9",
     "name_en": "CAPITAL, LONG-TERM LIABILITIES (DEBTS) AND LONG-TERM PROVISIONS",
     "name_sl": "KAPITAL, DOLGOROČNE OBVEZNOSTI (DOLGOVI) IN DOLGOROČNE REZERVACIJE"
   }
-}
+]

@@ -1,278 +1,347 @@
-{
-  "00": {
+[
+  {
+    "code": "00",
     "name_en": "Intangible assets and long-term deferred costs and accrued revenue",
     "name_sl": "Neopredmetena sredstva in dolgoročne aktivne časovne razmejitve"
   },
-  "01": {
+  {
+    "code": "01",
     "name_en": "Investment property",
     "name_sl": "Naložbene nepremičnine"
   },
-  "02": {
+  {
+    "code": "02",
     "name_en": "Land and buildings",
     "name_sl": "Nepremičnine"
   },
-  "03": {
+  {
+    "code": "03",
     "name_en": "Accumulated depreciation and impairment of property",
     "name_sl": "Popravek in oslabitev vrednosti nepremičnin"
   },
-  "04": {
+  {
+    "code": "04",
     "name_en": "Equipment and other property, plant and equipment",
     "name_sl": "Oprema in druga opredmetena osnovna sredstva"
   },
-  "05": {
+  {
+    "code": "05",
     "name_en": "Accumulated depreciation of equipment and other property, plant and equipment",
     "name_sl": "Popravek in oslabitev vrednosti opreme in drugih opredmetenih osnovnih sredstev"
   },
-  "06": {
+  {
+    "code": "06",
     "name_en": "Long-term investments other land loans",
     "name_sl": "Dolgoročne finančne naložbe, razen posojil"
   },
-  "07": {
+  {
+    "code": "07",
     "name_en": "Long-term loans granted and receivables from unpaid called-up capital",
     "name_sl": "Dana dolgoročna posojila in terjatve za nevplačani vpoklicani kapital"
   },
-  "08": {
+  {
+    "code": "08",
     "name_en": "Long-term operating receivables",
     "name_sl": "Dolgoročne poslovne terjatve"
   },
-  "09": {
+  {
+    "code": "09",
     "name_en": "Deferred tax assets",
     "name_sl": "Odložene terjatve za davek"
   },
-  "10": {
+  {
+    "code": "10",
     "name_en": "Cash in hand and readily realisable securities",
     "name_sl": "Denarna sredstva v blagajni in takoj udenarljivi vrednostni papirji"
   },
-  "11": {
+  {
+    "code": "11",
     "name_en": "Balances with banks and other financial institutions",
     "name_sl": "Dobroimetje pri bankah in drugih finančnih inštitucijah"
   },
-  "12": {
+  {
+    "code": "12",
     "name_en": "Short-term receivables due from customers",
     "name_sl": "Kratkoročne terjatve do kupcev"
   },
-  "13": {
+  {
+    "code": "13",
     "name_en": "Short-term advances and collaterals given",
     "name_sl": "Dani kratkoročni predujmi in varščine"
   },
-  "14": {
+  {
+    "code": "14",
     "name_en": "Short-term operating receivables on third-party account",
     "name_sl": "Kratkoročne terjatve iz poslovanja za tuj račun"
   },
-  "15": {
+  {
+    "code": "15",
     "name_en": "Short-term receivables associated with financial revenue",
     "name_sl": "Kratkoročne terjatve, povezane s finančnimi prihodki"
   },
-  "16": {
+  {
+    "code": "16",
     "name_en": "Other short-term receivables",
     "name_sl": "Druge kratkoročne terjatve"
   },
-  "17": {
+  {
+    "code": "17",
     "name_en": "Short-term investments other than loans",
     "name_sl": "Kratkoročne finančne naložbe, razen posojil"
   },
-  "18": {
+  {
+    "code": "18",
     "name_en": "Short-term loans and short-term receivables from unpaid capital",
     "name_sl": "Kratkoročna posojila in kratkoročne terjatve za nevplačani kapital"
   },
-  "19": {
+  {
+    "code": "19",
     "name_en": "Short-term deferred costs and accrued revenue",
     "name_sl": "Kratkoročne aktivne časovne razmejitve"
   },
-  "21": {
+  {
+    "code": "21",
     "name_en": "Liabilities included in disposal groups",
     "name_sl": "Obveznosti, vključene v skupine za odtujitev"
   },
-  "22": {
+  {
+    "code": "22",
     "name_en": "Short-term liabilities (debts) to suppliers",
     "name_sl": "Kratkoročne obveznosti (dolgovi) do dobaviteljev"
   },
-  "23": {
+  {
+    "code": "23",
     "name_en": "Short-term advances and collaterals received",
     "name_sl": "Prejeti kratkoročni predujmi in varščine"
   },
-  "24": {
+  {
+    "code": "24",
     "name_en": "Short-term operating liabilities on third-party account",
     "name_sl": "Kratkoročne obveznosti iz poslovanja za tuj račun"
   },
-  "25": {
+  {
+    "code": "25",
     "name_en": "Short-term payroll liabilities",
     "name_sl": "Kratkoročne obveznosti za plače"
   },
-  "26": {
+  {
+    "code": "26",
     "name_en": "Liabilities to state and other institutions",
     "name_sl": "Obveznosti do državnih in drugih inštitucij"
   },
-  "27": {
+  {
+    "code": "27",
     "name_en": "Short-term financial liabilities",
     "name_sl": "Kratkoročne finančne obveznosti"
   },
-  "28": {
+  {
+    "code": "28",
     "name_en": "Other short-term liabilities",
     "name_sl": "Druge kratkoročne obveznosti"
   },
-  "29": {
+  {
+    "code": "29",
     "name_en": "Short-term accrued costs and deferred revenue",
     "name_sl": "Kratkoročne pasivne časovne razmejitve"
   },
-  "30": {
+  {
+    "code": "30",
     "name_en": "Accounting for the purchase of raw materials and materials (including low-value assets and packaging)",
     "name_sl": "Obračun nabave surovin in materiala (tudi drobnega inventarja in embalaže)"
   },
-  "31": {
+  {
+    "code": "31",
     "name_en": "Inventories of raw materials and materials",
     "name_sl": "Zaloge surovin in materiala"
   },
-  "32": {
+  {
+    "code": "32",
     "name_en": "Inventories of low-value assets and packaging",
     "name_sl": "Zaloge drobnega inventarja in embalaže"
   },
-  "40": {
+  {
+    "code": "40",
     "name_en": "Costs of materials",
     "name_sl": "Stroški materiala"
   },
-  "41": {
+  {
+    "code": "41",
     "name_en": "Costs of services",
     "name_sl": "Stroški storitev"
   },
-  "43": {
+  {
+    "code": "43",
     "name_en": "Amortisation / depreciation",
     "name_sl": "Amortizacija"
   },
-  "44": {
+  {
+    "code": "44",
     "name_en": "Provisions",
     "name_sl": "Rezervacije"
   },
-  "45": {
+  {
+    "code": "45",
     "name_en": "Interest costs",
     "name_sl": "Stroški obresti"
   },
-  "47": {
+  {
+    "code": "47",
     "name_en": "Labour costs",
     "name_sl": "Stroški dela"
   },
-  "48": {
+  {
+    "code": "48",
     "name_en": "Other costs",
     "name_sl": "Drugi stroški"
   },
-  "49": {
+  {
+    "code": "49",
     "name_en": "Transfer of costs",
     "name_sl": "Prenos stroškov"
   },
-  "60": {
+  {
+    "code": "60",
     "name_en": "Work-in-progress and services in progress",
     "name_sl": "Nedokončane proizvodnja in storitve"
   },
-  "61": {
+  {
+    "code": "61",
     "name_en": "Inventories of agricultural produce (harvested) from biological assets",
     "name_sl": "Zaloge pridelkov (pospravljenih) iz bioloških sredstev"
   },
-  "63": {
+  {
+    "code": "63",
     "name_en": "Products",
     "name_sl": "Proizvodi"
   },
-  "65": {
+  {
+    "code": "65",
     "name_en": "Accounting for the purchase of goods",
     "name_sl": "Obračun nabave blaga"
   },
-  "66": {
+  {
+    "code": "66",
     "name_en": "Inventories of goods",
     "name_sl": "Zaloge blaga"
   },
-  "67": {
+  {
+    "code": "67",
     "name_en": "Non-current assets (disposal groups) held for sale",
     "name_sl": "Nekratkoročna sredstva (skupine za odtujitev) za prodajo"
   },
-  "70": {
+  {
+    "code": "70",
     "name_en": "Operating expenses (Format I of the income statement)",
     "name_sl": "Poslovni odhodki (I. različica izkaza poslovnega izida)"
   },
-  "71": {
+  {
+    "code": "71",
     "name_en": "Operating expenses (Format II of the income statement)",
     "name_sl": "Poslovni odhodki (II. Različica izkaza poslovnega izida)"
   },
-  "72": {
+  {
+    "code": "72",
     "name_en": "Revaluation operating expenses",
     "name_sl": "Prevrednotovalni poslovni odhodki"
   },
-  "74": {
+  {
+    "code": "74",
     "name_en": "Financial expenses",
     "name_sl": "Finančni odhodki"
   },
-  "75": {
+  {
+    "code": "75",
     "name_en": "Other expenses",
     "name_sl": "Drugi odhodki"
   },
-  "76": {
+  {
+    "code": "76",
     "name_en": "Operating revenue",
     "name_sl": "Poslovni prihodki"
   },
-  "77": {
+  {
+    "code": "77",
     "name_en": "Financial revenue",
     "name_sl": "Finančni prihodki"
   },
-  "78": {
+  {
+    "code": "78",
     "name_en": "Other revenue",
     "name_sl": "Drugi prihodki"
   },
-  "79": {
+  {
+    "code": "79",
     "name_en": "Capitalised own products and own services",
     "name_sl": "Usredstveni lastni proizvodi in lastne storitve"
   },
-  "80": {
+  {
+    "code": "80",
     "name_en": "Profit or loss before tax",
     "name_sl": "Poslovni izid pred obdavčitvijo"
   },
-  "81": {
+  {
+    "code": "81",
     "name_en": "Allocation of profit or total revenue surplus",
     "name_sl": "Razporeditev dobička oziroma in celotnega presežka prihodkov"
   },
-  "82": {
+  {
+    "code": "82",
     "name_en": "Allocation of net profit for the year and/or net revenue surplus",
     "name_sl": "Razporeditev čistega dobička poslovnega leta oziroma čistega presežka prihodkov"
   },
-  "89": {
+  {
+    "code": "89",
     "name_en": "Net loss and/or net expense surplus and transfer of net loss and/or net expense surplus",
     "name_sl": "Čista izguba oziroma čisti presežek odhodkov in prenos čiste izgube oziroma čistega presežka odhodkov"
   },
-  "90": {
+  {
+    "code": "90",
     "name_en": "Called-up and starting capital and founding contributions",
     "name_sl": "Vpoklicani in začetni kapital ter ustanovitvene vloge"
   },
-  "91": {
+  {
+    "code": "91",
     "name_en": "Capital surplus and transfers of assets",
     "name_sl": "Kapitalske rezerve in prenosi sredstev"
   },
-  "92": {
+  {
+    "code": "92",
     "name_en": "Revenue reserves and/or allocated net revenue surplus",
     "name_sl": "Rezerve iz dobička oziroma razporejeni čisti presežek prihodkov"
   },
-  "93": {
+  {
+    "code": "93",
     "name_en": "Net profit or net loss and/or unallocated net revenue surplus or expense surplus",
     "name_sl": "Čisti dobiček ali čista izguba oziroma nerazporejeni čisti presežek prihodkov ali čisti presežek odhodkov"
   },
-  "94": {
+  {
+    "code": "94",
     "name_en": "Revaluation surplus",
     "name_sl": "Revalorizacijske rezerve"
   },
-  "95": {
+  {
+    "code": "95",
     "name_en": "Fair value reserves",
     "name_sl": "Rezerve, nastale zaradi vrednotenja po pošteni vrednosti"
   },
-  "96": {
+  {
+    "code": "96",
     "name_en": "Provisions and long-term accrued costs and deferred revenue",
     "name_sl": "Rezervacije in dolgoročne pasivne časovne razmejitve"
   },
-  "97": {
+  {
+    "code": "97",
     "name_en": "Long-term financial liabilities",
     "name_sl": "Dolgoročne finančne obveznosti"
   },
-  "98": {
+  {
+    "code": "98",
     "name_en": "Long-term operating liabilities",
     "name_sl": "Dolgoročne poslovne obveznosti"
   },
-  "99": {
+  {
+    "code": "99",
     "name_en": "Off-balance sheet accounts",
     "name_sl": "Zunajbilančni konti"
   }
-}
+]
