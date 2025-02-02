@@ -20,5 +20,9 @@ module.exports = {
       en: "Slovene:",
       sl: "Angleško:",
     },
+    accounts: {
+      en: "Accounts",
+      sl: "Konti",
+    },
   }
 };

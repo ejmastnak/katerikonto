@@ -6,7 +6,7 @@ import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
 import Account from './Account.vue'
 
-const accounts = inject('accounts')
+const accountsArray = inject('accountsArray')
 
 // fuzzysort options
 const throttlems = 200
@@ -16,7 +16,7 @@ const limit = 15
 const accountsQuery = ref("")
 const filteredAccounts = ref([])
 function searchAccounts(query) {
-  filteredAccounts.value = fuzzysort.go(query.trim(), accounts, {
+  filteredAccounts.value = fuzzysort.go(query.trim(), accountsArray, {
     key: 'code',
     limit: limit,
     threshold: threshold,

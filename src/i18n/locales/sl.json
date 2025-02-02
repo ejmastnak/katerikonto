@@ -15,7 +15,8 @@
     "inputPlaceholder": "npr. 1, 2, 7",
     "noResults": "Ni zadektov",
     "classPartial": {
-      "otherLanguage": "Angleško:"
+      "otherLanguage": "Angleško:",
+      "groups": "Skupine"
     }
   },
   "groups": {
@@ -24,7 +25,8 @@
     "noResults": "Ni zadektov",
     "groupPartial": {
       "class": "Razred",
-      "otherLanguage": "Angleško:"
+      "otherLanguage": "Angleško:",
+      "accounts": "Konti"
     }
   },
   "home": {

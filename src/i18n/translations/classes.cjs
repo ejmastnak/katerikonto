@@ -16,5 +16,9 @@ module.exports = {
       en: "Slovene:",
       sl: "Angleško:",
     },
+    groups: {
+      en: "Groups",
+      sl: "Skupine",
+    },
   }
 };

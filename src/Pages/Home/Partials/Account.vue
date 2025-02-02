@@ -17,7 +17,7 @@ const locales = inject('locales')
   <div>
 
     <p class="text-lg"><span class="font-bold">{{account.code}}</span> – {{locale === locales.en ? account.name_en : account.name_sl}}</p>
-    <p class="mt-0.5 text-gray-600">{{$t('accounts.accountPartial.otherLanguage')}} {{locale === locales.en ? account.name_sl : account.name_en}}</p>
+    <p class="mt-px text-gray-600">{{$t('accounts.accountPartial.otherLanguage')}} {{locale === locales.en ? account.name_sl : account.name_en}}</p>
 
     <!-- Group and class -->
     <div class="mt-3 text-gray-600">
