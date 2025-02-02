@@ -31,7 +31,13 @@ watch(groupsQuery, throttle(function (value) {
   searchGroups(value)
 }, throttlems))
 
+/**
+  Prioritizes group codes beginning with search query, falling back to
+  alphabetical sort.
+*/
 function compareCodes(a, b) {
+  if (a.target.startsWith(groupsQuery.value) && !b.target.startsWith(groupsQuery.value)) return -1;
+  if (b.target.startsWith(groupsQuery.value) && !a.target.startsWith(groupsQuery.value)) return 1;
   return a.target - b.target;
 }
 
