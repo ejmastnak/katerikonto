@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "inputLabel": "Account code",
+    "inputLabel": "Search here",
     "inputPlaceholder": "e.g. 110, 220, 760",
     "noResults": "No results!",
     "accountPartial": {
@@ -10,8 +10,11 @@
       "otherLanguage": "Slovene:"
     }
   },
+  "app": {
+    "source": "Source:"
+  },
   "classes": {
-    "inputLabel": "Class code",
+    "inputLabel": "Search here",
     "inputPlaceholder": "e.g. 1, 2, 7",
     "noResults": "No results!",
     "classPartial": {
@@ -20,7 +23,7 @@
     }
   },
   "groups": {
-    "inputLabel": "Group code",
+    "inputLabel": "Search here",
     "inputPlaceholder": "e.g. 11, 22, 76",
     "noResults": "No results!",
     "groupPartial": {

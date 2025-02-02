@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "inputLabel": "Konto",
+    "inputLabel": "Isči",
     "inputPlaceholder": "npr. 110, 220, 760",
     "noResults": "Ni zadektov",
     "accountPartial": {
@@ -10,8 +10,11 @@
       "otherLanguage": "Angleško:"
     }
   },
+  "app": {
+    "source": "Vir:"
+  },
   "classes": {
-    "inputLabel": "Razred",
+    "inputLabel": "Isči",
     "inputPlaceholder": "npr. 1, 2, 7",
     "noResults": "Ni zadektov",
     "classPartial": {
@@ -20,7 +23,7 @@
     }
   },
   "groups": {
-    "inputLabel": "Skupina",
+    "inputLabel": "Isči",
     "inputPlaceholder": "npr. 11, 22, 76",
     "noResults": "Ni zadektov",
     "groupPartial": {

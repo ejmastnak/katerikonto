@@ -1,7 +1,7 @@
 module.exports = {
   inputLabel: {
-    en: "Account code",
-    sl: "Konto",
+    en: "Search here",
+    sl: "Isči",
   },
   inputPlaceholder: {
     en: "e.g. 110, 220, 760",

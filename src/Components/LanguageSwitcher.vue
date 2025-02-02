@@ -22,12 +22,12 @@ const switchLanguageTo = async (newLocale) => {
       :modelValue="locale"
       @update:modelValue="switchLanguageTo"
     >
-      <ListboxButton class="flex items-center text-left border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 px-2 py-2">
+      <ListboxButton class="flex items-center text-left border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 px-2 py-2">
         <GlobeAltIcon class="w-5 h-5 translate-y-px text-gray-500 shrink-0" />
         <span class="ml-1 uppercase font-bold">{{ locale }}</span>
         <ChevronDownIcon class="translate-y-px ml-0.5 w-5 h-5 text-gray-500 shrink-0" />
       </ListboxButton>
-      <ListboxOptions class="absolute left-0 sm:left-auto sm:right-0 mt-0.5 text-sm bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 overflow-hidden focus:border-blue-500">
+      <ListboxOptions class="absolute left-0 sm:left-auto sm:right-0 mt-0.5 text-sm bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:outline-none focus:ring-1 focus:ring-sky-500 overflow-hidden focus:border-sky-500">
         <ListboxOption
           v-for="(option, idx) in supportedLocales"
           :key="`locale-${option}`"
@@ -36,7 +36,7 @@ const switchLanguageTo = async (newLocale) => {
           v-slot="{ active, selected }"
         >
           <li class="flex items-center px-4 py-1.5" :class="{
-            'bg-blue-500 text-white': active,
+            'bg-sky-500 text-white': active,
             'text-gray-500': !selected && !active,
             'font-bold': selected,
           }"

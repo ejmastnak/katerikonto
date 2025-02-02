@@ -44,7 +44,7 @@ function compareCodes(a, b) {
 
     <!-- Search input for accounts -->
     <div class="w-fit mx-auto">
-      <InputLabel for="accounts" :value="$t('accounts.inputLabel')" />
+      <InputLabel class="ml-px" for="accounts" :value="$t('accounts.inputLabel')" />
       <TextInput
       id="accounts"
       type="text"

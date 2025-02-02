@@ -1,7 +1,7 @@
 module.exports = {
   inputLabel: {
-    en: "Class code",
-    sl: "Razred",
+    en: "Search here",
+    sl: "Isči",
   },
   inputPlaceholder: {
     en: "e.g. 1, 2, 7",
