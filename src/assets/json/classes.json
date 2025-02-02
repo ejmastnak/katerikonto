@@ -1,38 +1,38 @@
 {
   "0": {
-    "name_en": "LONG-TERM ASSETS",
-    "name_sl": "DOLGOROČNA SREDSTVA"
+    "name_en": "Long-term assets",
+    "name_sl": "Dolgoročna sredstva"
   },
   "1": {
-    "name_en": "CURRENT ASSETS, OTHER THAN INVENTORIES AND SHORT-TERM DEFERRED COSTS AND ACCRUED REVENUE",
-    "name_sl": "KRATKOROČNA SREDSTVA, RAZEN ZALOG, IN KRATKOROČNE AKTIVNE ČASOVNE RAZMEJITVE"
+    "name_en": "Current assets, other than inventories and short-term deferred costs and accrued revenue",
+    "name_sl": "Kratkoročna sredstva, razen zalog, in kratkoročne aktivne časovne razmejitve"
   },
   "2": {
-    "name_en": "SHORT-TERM LIABILITIES (DEBTS) AND SHORT-TERM ACCRUED COSTS AND DEFERRED REVENUE",
-    "name_sl": "KRATKOROČNE OBVEZNOSTI (DOLGOVI) IN KRATKOROČNE PASIVNE ČASOVNE RAZMEJITVE"
+    "name_en": "Short-term liabilities (debts) and short-term accrued costs and deferred revenue",
+    "name_sl": "Kratkoročne obveznosti (dolgovi) in kratkoročne pasivne časovne razmejitve"
   },
   "3": {
-    "name_en": "INVENTORIES OF RAW MATERIALS AND MATERIALS",
-    "name_sl": "ZALOGE SUROVIN IN MATERIALA"
+    "name_en": "Inventories of raw materials and materials",
+    "name_sl": "Zaloge surovin in materiala"
   },
   "4": {
-    "name_en": "COSTS",
-    "name_sl": "STROŠKI"
+    "name_en": "Costs",
+    "name_sl": "Stroški"
   },
   "6": {
-    "name_en": "INVENTORIES OF PRODUCTS, SERVICES, GOODS AND NONCURRENT ASSETS (DISPOSAL GROUPS) HELD FOR SALE",
-    "name_sl": "ZALOGE PROIZVODOV, STORITEV, BLAGA IN NEKRATKOROČNIH SREDSTEV (SKUPINE ZA ODTUJITEV) ZA PRODAJO"
+    "name_en": "Inventories of products, services, goods and noncurrent assets (disposal groups) held for sale",
+    "name_sl": "Zaloge proizvodov, storitev, blaga in nekratkoročnih sredstev (skupine za odtujitev) za prodajo"
   },
   "7": {
-    "name_en": "EXPENSES AND REVENUE",
-    "name_sl": "ODHODKI IN PRIHODKI"
+    "name_en": "Expenses and revenue",
+    "name_sl": "Odhodki in prihodki"
   },
   "8": {
-    "name_en": "PROFIT OR LOSS",
-    "name_sl": "POSLOVNI IZID"
+    "name_en": "Profit or loss",
+    "name_sl": "Poslovni izid"
   },
   "9": {
-    "name_en": "CAPITAL, LONG-TERM LIABILITIES (DEBTS) AND LONG-TERM PROVISIONS",
-    "name_sl": "KAPITAL, DOLGOROČNE OBVEZNOSTI (DOLGOVI) IN DOLGOROČNE REZERVACIJE"
+    "name_en": "Capital, long-term liabilities (debts) and long-term provisions",
+    "name_sl": "Kapital, dolgoročne obveznosti (dolgovi) in dolgoročne rezervacije"
   }
 }

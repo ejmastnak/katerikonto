@@ -4,7 +4,6 @@ import fuzzysort from 'fuzzysort'
 import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
-import Listing from './Listing.vue'
 import Account from './Account.vue'
 
 const accounts = inject('accounts')
@@ -36,13 +35,14 @@ function compareCodes(a, b) {
 
 <template>
   <div>
+
     <!-- Search input for accounts -->
     <div class="w-fit mx-auto">
-      <InputLabel for="accounts" value="Account code" />
+      <InputLabel for="accounts" :value="$t('accounts.inputLabel')" />
       <TextInput
       id="accounts"
       type="text"
-      placeholder="e.g. 110, 220, 760"
+      :placeholder="$t('accounts.inputPlaceholder')"
       v-model="accountsQuery"
     />
       <!-- No results found message -->
@@ -50,21 +50,18 @@ function compareCodes(a, b) {
         v-show="accountsQuery && filteredAccounts.length === 0" 
         class="mt-2 text-gray-500"
       >
-        No results!
+        {{$t('accounts.noResults')}}
       </p>
     </div>
 
     <!-- Accounts listing -->
-    <Listing v-show="filteredAccounts.length>
-      0" class="border border-gray-200 shadow px-12 py-4 rounded-xl mt-16 space-y-5">
+    <ul v-show="filteredAccounts.length> 0" class="mt-10 space-y-6">
       <li
         v-for="account in filteredAccounts.sort(compareCodes)"
         :key="account.obj.code" 
       >
-        <Account 
-        :account="account.obj"
-      />
+        <Account class="border border-gray-200 shadow px-10 py-6 rounded-xl" :account="account.obj" />
       </li>
-    </Listing >
+    </ul >
   </div>
 </template>

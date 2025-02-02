@@ -30,39 +30,39 @@ onMounted(() => {
 
     <TabGroup @change="changeTab" :defaultIndex="Number(selectedTab)">
 
-      <TabList class="rounded border-b border-gray-300 space-x-2 whitespace-nowrap flex justify-between w-64 mx-auto">
+      <TabList class="rounded border-b border-gray-300 space-x-2 whitespace-nowrap flex justify-between w-fit mx-auto">
 
         <!-- Accounts tab button -->
         <Tab as="template" v-slot="{ selected }">
-          <MyTabButton :selected="selected">Accounts</MyTabButton>
+          <MyTabButton :selected="selected">{{$t('home.accounts')}}</MyTabButton>
         </Tab>
 
         <!-- Groups tab button -->
         <Tab as="template" v-slot="{ selected }">
-          <MyTabButton :selected="selected">Groups</MyTabButton>
+          <MyTabButton :selected="selected">{{$t('home.groups')}}</MyTabButton>
         </Tab>
 
         <!-- Classes tab button -->
         <Tab as="template" v-slot="{ selected }">
-          <MyTabButton :selected="selected">Classes</MyTabButton>
+          <MyTabButton :selected="selected">{{$t('home.classes')}}</MyTabButton>
         </Tab>
 
       </TabList>
 
-      <TabPanels class="mt-2">
+      <TabPanels class="mt-3">
 
         <!-- Accounts panel -->
-        <TabPanel class="focus:outline-none focus:ring-1 focus:ring-blue-500 rounded p-1">
+        <TabPanel class="rounded p-1">
           <Accounts />
         </TabPanel>
 
         <!-- Groups panel -->
-        <TabPanel class="focus:outline-none focus:ring-1 focus:ring-blue-500 rounded-md p-1">
+        <TabPanel class="rounded-md p-1">
           <Groups />
         </TabPanel>
 
         <!-- Classes panel -->
-        <TabPanel class="focus:outline-none focus:ring-1 focus:ring-blue-500 rounded-md p-1">
+        <TabPanel class="rounded-md p-1">
           <Classes />
         </TabPanel>
 

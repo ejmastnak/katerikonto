@@ -4,7 +4,6 @@ import fuzzysort from 'fuzzysort'
 import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
-import Listing from './Listing.vue'
 import Group from './Group.vue'
 
 const groupsArray = inject('groupsArray')
@@ -42,11 +41,11 @@ function compareCodes(a, b) {
   <div>
     <!-- Search input for groups -->
     <div class="w-fit mx-auto">
-      <InputLabel for="groups" value="Group code" />
+      <InputLabel for="groups" :value="$t('groups.inputLabel')" />
       <TextInput
       id="groups"
       type="text"
-      placeholder="e.g. 110, 220, 760"
+      :placeholder="$t('groups.inputPlaceholder')"
       v-model="groupsQuery"
     />
       <!-- No results found message -->
@@ -54,20 +53,18 @@ function compareCodes(a, b) {
         v-if="groupsQuery && filteredGroups.length === 0" 
         class="mt-2 text-gray-500"
       >
-        No results!
+        {{$t('groups.noResults')}}
       </p>
     </div>
 
     <!-- Groups listing -->
-    <Listing v-show="filteredGroups.length > 0">
+    <ul v-show="filteredGroups.length > 0" class="mt-10 space-y-6">
       <li
         v-for="group in filteredGroups.sort(compareCodes)"
         :key="group.obj.code" 
       >
-        <Group 
-        :group="group.obj"
-      />
+        <Group class="border border-gray-200 shadow px-10 py-6 rounded-xl" :group="group.obj" />
       </li>
-    </Listing>
+    </ul>
   </div>
 </template>

@@ -4,7 +4,6 @@ import fuzzysort from 'fuzzysort'
 import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
-import Listing from './Listing.vue'
 import Class from './Class.vue'
 
 const classesArray = inject('classesArray')
@@ -42,11 +41,11 @@ function compareCodes(a, b) {
   <div>
     <!-- Search input for classes -->
     <div class="w-fit mx-auto">
-      <InputLabel for="classes" value="Class code" />
+      <InputLabel for="classes" :value="$t('classes.inputLabel')" />
       <TextInput
       id="classes"
       type="text"
-      placeholder="e.g. 110, 220, 760"
+      :placeholder="$t('classes.inputPlaceholder')"
       v-model="classesQuery"
     />
       <!-- No results found message -->
@@ -54,20 +53,18 @@ function compareCodes(a, b) {
         v-if="classesQuery && filteredClasses.length === 0" 
         class="mt-2 text-gray-500"
       >
-        No results!
+        {{$t('classes.noResults')}}
       </p>
     </div>
 
     <!-- Classes listing -->
-    <Listing v-show="filteredClasses.length">
+    <ul v-show="filteredClasses.length" class="mt-10 space-y-6">
       <li
         v-for="srsClass in filteredClasses.sort(compareCodes)"
         :key="srsClass.obj.code" 
       >
-        <Class 
-        :srsClass="srsClass.obj"
-      />
+        <Class class="border border-gray-200 shadow px-10 py-6 rounded-xl" :srsClass="srsClass.obj" />
       </li>
-    </Listing>
+    </ul>
   </div>
 </template>

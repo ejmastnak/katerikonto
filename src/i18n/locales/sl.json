@@ -1,0 +1,35 @@
+{
+  "accounts": {
+    "inputLabel": "Konto",
+    "inputPlaceholder": "npr. 110, 220, 760",
+    "noResults": "Ni zadektov",
+    "accountPartial": {
+      "group": "Skupina",
+      "class": "Razred",
+      "usedBy": "Uporabljajo:",
+      "otherLanguage": "Angleško:"
+    }
+  },
+  "classes": {
+    "inputLabel": "Razred",
+    "inputPlaceholder": "npr. 1, 2, 7",
+    "noResults": "Ni zadektov",
+    "classPartial": {
+      "otherLanguage": "Angleško:"
+    }
+  },
+  "groups": {
+    "inputLabel": "Skupina",
+    "inputPlaceholder": "npr. 11, 22, 76",
+    "noResults": "Ni zadektov",
+    "groupPartial": {
+      "class": "Razred",
+      "otherLanguage": "Angleško:"
+    }
+  },
+  "home": {
+    "accounts": "Konti",
+    "groups": "Skupine",
+    "classes": "Razredi"
+  }
+}

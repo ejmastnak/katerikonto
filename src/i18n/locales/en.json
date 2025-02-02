@@ -1,0 +1,35 @@
+{
+  "accounts": {
+    "inputLabel": "Account code",
+    "inputPlaceholder": "e.g. 110, 220, 760",
+    "noResults": "No results!",
+    "accountPartial": {
+      "group": "Group",
+      "class": "Class",
+      "usedBy": "Used by:",
+      "otherLanguage": "Slovene:"
+    }
+  },
+  "classes": {
+    "inputLabel": "Class code",
+    "inputPlaceholder": "e.g. 1, 2, 7",
+    "noResults": "No results!",
+    "classPartial": {
+      "otherLanguage": "Slovene:"
+    }
+  },
+  "groups": {
+    "inputLabel": "Group code",
+    "inputPlaceholder": "e.g. 11, 22, 76",
+    "noResults": "No results!",
+    "groupPartial": {
+      "class": "Class",
+      "otherLanguage": "Slovene:"
+    }
+  },
+  "home": {
+    "accounts": "Accounts",
+    "groups": "Groups",
+    "classes": "Classes"
+  }
+}
