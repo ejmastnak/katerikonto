@@ -1,7 +1,7 @@
 module.exports = {
   inputLabel: {
-    en: "Search here",
-    sl: "Isči",
+    en: "Search SRS account codes",
+    sl: "Iskalnik po SRS kontih",
   },
   inputPlaceholder: {
     en: "e.g. 110, 220, 760",

@@ -1,7 +1,7 @@
 module.exports = {
   inputLabel: {
-    en: "Search here",
-    sl: "Isči",
+    en: "Search account groups",
+    sl: "Iskalnik po kontnih skupinah",
   },
   inputPlaceholder: {
     en: "e.g. 11, 22, 76",

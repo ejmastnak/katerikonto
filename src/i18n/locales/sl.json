@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "inputLabel": "Isči",
+    "inputLabel": "Iskalnik po SRS kontih",
     "inputPlaceholder": "npr. 110, 220, 760",
     "noResults": "Ni zadektov",
     "accountPartial": {
@@ -14,7 +14,7 @@
     "source": "Vir:"
   },
   "classes": {
-    "inputLabel": "Isči",
+    "inputLabel": "Iskalnik po kontnih razredih",
     "inputPlaceholder": "npr. 1, 2, 7",
     "noResults": "Ni zadektov",
     "classPartial": {
@@ -23,7 +23,7 @@
     }
   },
   "groups": {
-    "inputLabel": "Isči",
+    "inputLabel": "Iskalnik po kontnih skupinah",
     "inputPlaceholder": "npr. 11, 22, 76",
     "noResults": "Ni zadektov",
     "groupPartial": {

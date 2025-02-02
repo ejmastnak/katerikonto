@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "inputLabel": "Search here",
+    "inputLabel": "Search SRS account codes",
     "inputPlaceholder": "e.g. 110, 220, 760",
     "noResults": "No results!",
     "accountPartial": {
@@ -14,7 +14,7 @@
     "source": "Source:"
   },
   "classes": {
-    "inputLabel": "Search here",
+    "inputLabel": "Search account classes",
     "inputPlaceholder": "e.g. 1, 2, 7",
     "noResults": "No results!",
     "classPartial": {
@@ -23,7 +23,7 @@
     }
   },
   "groups": {
-    "inputLabel": "Search here",
+    "inputLabel": "Search account groups",
     "inputPlaceholder": "e.g. 11, 22, 76",
     "noResults": "No results!",
     "groupPartial": {
