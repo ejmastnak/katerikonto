@@ -13,7 +13,7 @@ const throttlems = 200
 const threshold = -100
 const limit = 15
 
-const accountsQuery = ref("")
+const query = ref("")
 const filteredAccounts = ref([])
 function searchAccounts(query) {
   filteredAccounts.value = fuzzysort.go(query.trim(), accountsArray, {
@@ -23,7 +23,7 @@ function searchAccounts(query) {
   })
 }
 
-watch(accountsQuery, throttle(function (value) {
+watch(query, throttle(function (value) {
   searchAccounts(value)
 }, throttlems))
 
@@ -32,8 +32,8 @@ watch(accountsQuery, throttle(function (value) {
   alphabetical sort.
 */
 function compareCodes(a, b) {
-  if (a.target.startsWith(accountsQuery.value) && !b.target.startsWith(accountsQuery.value)) return -1;
-  if (b.target.startsWith(accountsQuery.value) && !a.target.startsWith(accountsQuery.value)) return 1;
+  if (a.target.startsWith(query.value) && !b.target.startsWith(query.value)) return -1;
+  if (b.target.startsWith(query.value) && !a.target.startsWith(query.value)) return 1;
   return a.target - b.target;
 }
 
@@ -49,11 +49,11 @@ function compareCodes(a, b) {
       id="accounts"
       type="text"
       :placeholder="$t('accounts.inputPlaceholder')"
-      v-model="accountsQuery"
+      v-model="query"
     />
       <!-- No results found message -->
       <p 
-        v-show="accountsQuery && filteredAccounts.length === 0" 
+        v-show="query && filteredAccounts.length === 0" 
         class="mt-2 text-gray-500"
       >
         {{$t('accounts.noResults')}}

@@ -13,7 +13,7 @@ const throttlems = 200
 const threshold = -100
 const limit = 20
 
-const classesQuery = ref("")
+const query = ref("")
 const filteredClasses = ref([])
 function searchClasses(query) {
   filteredClasses.value = fuzzysort.go(query.trim(), classesArray, {
@@ -23,11 +23,11 @@ function searchClasses(query) {
   })
 }
 
-watch(classesQuery, throttle(function (value) {
+watch(query, throttle(function (value) {
   searchClasses(value)
 }, throttlems))
 
-watch(classesQuery, throttle(function (value) {
+watch(query, throttle(function (value) {
   searchClasses(value)
 }, throttlems))
 
@@ -46,11 +46,11 @@ function compareCodes(a, b) {
       id="classes"
       type="text"
       :placeholder="$t('classes.inputPlaceholder')"
-      v-model="classesQuery"
+      v-model="query"
     />
       <!-- No results found message -->
       <p 
-        v-if="classesQuery && filteredClasses.length === 0" 
+        v-if="query && filteredClasses.length === 0" 
         class="mt-2 text-gray-500"
       >
         {{$t('classes.noResults')}}
