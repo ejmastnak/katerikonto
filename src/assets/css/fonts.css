@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "B612";
+  src: url('@/assets/fonts/B612-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "B612";
+  src: url('@/assets/fonts/B612-Italic.ttf') format('opentype');
+  font-style: italic;
+}

@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
 import i18n from './i18n'
+import './assets/css/fonts.css'
+
 import Translate from "@/i18n/translation"
 import App from './App.vue'
 
