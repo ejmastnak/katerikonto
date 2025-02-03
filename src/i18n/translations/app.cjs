@@ -1,6 +1,12 @@
 module.exports = {
-  source: {
-    en: "Source:",
-    sl: "Vir:",
-  },
+  footer: {
+    source: {
+      en: "Source:",
+      sl: "Vir:",
+    },
+    madeBy: {
+      en: "Built by",
+      sl: "Izdelava:",
+    },
+  }
 };

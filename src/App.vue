@@ -16,10 +16,14 @@ import Logo from '@/Components/Logo.vue'
       </div>
     </div>
 
-    <div class="mt-auto p-5">
-      <p class="text-gray-500">
-        {{$t('app.source')}} <a class="hover:underline hover:text-sky-600" href="https://si-revizija.si/standardi/slovenski-racunovodski-standardi-2016">SRS 2016</a>
-      </p>
+    <div class="mt-auto p-3 text-gray-400">
+      <span>
+        {{$t('app.footer.source')}} <a class="hover:underline hover:text-sky-600" href="https://si-revizija.si/standardi/slovenski-racunovodski-standardi-2016">SRS 2016</a>
+      </span>
+      <span class="mx-4">|</span>
+      <span>
+        {{$t('app.footer.madeBy')}} <a class="hover:underline hover:text-sky-600" href="https://ejmastnak.com/">Elijan Mastnak</a>
+      </span>
     </div>
 
   </main>
