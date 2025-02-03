@@ -5,6 +5,7 @@ import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
 import Class from './Class.vue'
+import ItemWrapper from './ItemWrapper.vue'
 
 const classesArray = inject('classesArray')
 
@@ -63,7 +64,9 @@ function compareCodes(a, b) {
         v-for="srsClass in filteredClasses.sort(compareCodes)"
         :key="srsClass.obj.code" 
       >
-        <Class class="border border-gray-200 shadow px-10 py-6 rounded-xl" :srsClass="srsClass.obj" />
+        <ItemWrapper>
+          <Class :srsClass="srsClass.obj" />
+        </ItemWrapper>
       </li>
     </ul>
   </div>

@@ -5,6 +5,7 @@ import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
 import Group from './Group.vue'
+import ItemWrapper from './ItemWrapper.vue'
 
 const groupsArray = inject('groupsArray')
 
@@ -69,7 +70,9 @@ function compareCodes(a, b) {
         v-for="group in filteredGroups.sort(compareCodes)"
         :key="group.obj.code" 
       >
-        <Group class="border border-gray-200 shadow px-10 py-6 rounded-xl" :group="group.obj" />
+        <ItemWrapper>
+          <Group :group="group.obj" />
+        </ItemWrapper>
       </li>
     </ul>
   </div>

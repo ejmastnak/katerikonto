@@ -5,6 +5,7 @@ import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
 import Account from './Account.vue'
+import ItemWrapper from './ItemWrapper.vue'
 
 const accountsArray = inject('accountsArray')
 
@@ -43,9 +44,10 @@ function compareCodes(a, b) {
   <div>
 
     <!-- Search input for accounts -->
-    <div class="w-fit mx-auto">
+    <div class="w-fit mx-auto text-lg">
       <InputLabel class="ml-px" for="accounts" :value="$t('accounts.inputLabel')" />
       <TextInput
+      class="mt-px"
       id="accounts"
       type="text"
       :placeholder="$t('accounts.inputPlaceholder')"
@@ -66,7 +68,9 @@ function compareCodes(a, b) {
         v-for="account in filteredAccounts.sort(compareCodes)"
         :key="account.obj.code" 
       >
-        <Account class="border border-gray-200 shadow px-10 py-6 rounded-xl" :account="account.obj" />
+        <ItemWrapper>
+          <Account :account="account.obj" />
+        </ItemWrapper>
       </li>
     </ul >
   </div>
