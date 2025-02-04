@@ -1,4 +1,4 @@
-## konti
+## Kateri konto?
 
 An interface for finding the names of Slovene Accounting Standards account codes in Slovene and English.
 
