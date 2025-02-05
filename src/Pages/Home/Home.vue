@@ -30,7 +30,7 @@ onMounted(() => {
 
     <TabGroup @change="changeTab" :defaultIndex="Number(selectedTab)">
 
-      <TabList class="rounded border-b border-gray-300 space-x-2 whitespace-nowrap flex justify-between w-fit mx-auto text-lg">
+      <TabList class="rounded border-b border-gray-300 space-x-1 sm:space-x-2 whitespace-nowrap flex justify-between w-fit mx-auto text-lg">
 
         <!-- Accounts tab button -->
         <Tab as="template" v-slot="{ selected }">

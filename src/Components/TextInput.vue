@@ -6,6 +6,7 @@ const props = defineProps({
   placeholder: String,
   type: String,
   id: String,
+  inputWidth: String,
 })
 
 const model = defineModel({
@@ -29,7 +30,8 @@ defineExpose({ focus: () => input.value.focus() });
       <MagnifyingGlassIcon class="-translate-x-0.5 translate-y-px w-6 h-6 text-gray-400 shrink-0" />
     </div>
     <input
-    class="pl-[2.75rem] rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 !text-lg"
+    class="pl-[2.75rem] rounded-md border-gray-300 shadow-sm focus:border-sky-500 focus:ring-sky-500 !text-lg"
+    :class="inputWidth"
     :placeholder="placeholder"
     :type="type"
     :id="id"

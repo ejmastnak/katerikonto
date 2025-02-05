@@ -51,6 +51,8 @@ function compareCodes(a, b) {
       <InputLabel for="groups" :value="$t('groups.inputLabel')" />
       <TextInput
       id="groups"
+      class="mt-px"
+      inputWidth="w-64"
       type="number"
       :placeholder="$t('groups.inputPlaceholder')"
       v-model="query"

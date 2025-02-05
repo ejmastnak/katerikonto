@@ -48,6 +48,7 @@ function compareCodes(a, b) {
       <InputLabel class="ml-px" for="accounts" :value="$t('accounts.inputLabel')" />
       <TextInput
       class="mt-px"
+      inputWidth="w-64"
       id="accounts"
       type="number"
       :placeholder="$t('accounts.inputPlaceholder')"
