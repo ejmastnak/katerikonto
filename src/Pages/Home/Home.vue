@@ -49,7 +49,7 @@ onMounted(() => {
 
       </TabList>
 
-      <TabPanels class="mt-3">
+      <TabPanels class="mt-4">
 
         <!-- Accounts panel -->
         <TabPanel class="rounded p-1">
