@@ -49,7 +49,7 @@ function compareCodes(a, b) {
       <TextInput
       class="mt-px"
       id="accounts"
-      type="text"
+      type="number"
       :placeholder="$t('accounts.inputPlaceholder')"
       v-model="query"
     />

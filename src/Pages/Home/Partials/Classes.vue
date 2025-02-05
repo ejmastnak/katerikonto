@@ -45,7 +45,7 @@ function compareCodes(a, b) {
       <InputLabel for="classes" :value="$t('classes.inputLabel')" />
       <TextInput
       id="classes"
-      type="text"
+      type="number"
       :placeholder="$t('classes.inputPlaceholder')"
       v-model="query"
     />
