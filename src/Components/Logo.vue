@@ -3,6 +3,11 @@
     <div class="w-12 h-12 bg-sky-800 flex items-center rounded shrink-0">
       <p class="text-sky-50 text-center w-full -translate-x-0.5 text-3xl">K</p>
     </div>
-    <p class="ml-3 sm:ml-4 text-sky-800">Kateri konto?</p>
+    <div class="ml-3 sm:ml-4 ">
+      <p class="text-sky-800">Kateri konto?</p>
+      <p v-if="$t('app.logoSubtitle')" class="mt-px text-xs text-gray-400">
+        {{$t('app.logoSubtitle')}}
+      </p>
+    </div>
   </div>
 </template>

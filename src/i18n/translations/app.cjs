@@ -8,5 +8,9 @@ module.exports = {
       en: "Built by",
       sl: "Izdelava:",
     },
-  }
+  },
+  logoSubtitle: {
+    en: "Which account?",
+    sl: "",  // intentionally blank
+  },
 };
