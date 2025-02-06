@@ -25,11 +25,7 @@ function searchGroups(query) {
 }
 
 watch(query, throttle(function (value) {
-  searchGroups(value)
-}, throttlems))
-
-watch(query, throttle(function (value) {
-  searchGroups(value)
+  searchGroups(value.toString())
 }, throttlems))
 
 /**

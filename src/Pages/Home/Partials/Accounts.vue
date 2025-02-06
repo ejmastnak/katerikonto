@@ -25,7 +25,7 @@ function searchAccounts(query) {
 }
 
 watch(query, throttle(function (value) {
-  searchAccounts(value)
+  searchAccounts(value.toString())
 }, throttlems))
 
 /**

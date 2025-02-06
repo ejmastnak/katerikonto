@@ -25,11 +25,7 @@ function searchClasses(query) {
 }
 
 watch(query, throttle(function (value) {
-  searchClasses(value)
-}, throttlems))
-
-watch(query, throttle(function (value) {
-  searchClasses(value)
+  searchClasses(value.toString())
 }, throttlems))
 
 function compareCodes(a, b) {
