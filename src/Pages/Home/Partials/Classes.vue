@@ -37,7 +37,7 @@ function compareCodes(a, b) {
 <template>
   <div>
     <!-- Search input for classes -->
-    <div class="w-fit mx-auto">
+    <div class="w-fit mx-auto text-lg">
       <InputLabel for="classes" :value="$t('classes.inputLabel')" />
       <TextInput
       id="classes"

@@ -43,7 +43,7 @@ function compareCodes(a, b) {
 <template>
   <div>
     <!-- Search input for groups -->
-    <div class="w-fit mx-auto">
+    <div class="w-fit mx-auto text-lg">
       <InputLabel for="groups" :value="$t('groups.inputLabel')" />
       <TextInput
       id="groups"
