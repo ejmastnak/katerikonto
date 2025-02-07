@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { Listbox, ListboxButton, ListboxOptions, ListboxOption, } from '@headlessui/vue'
-import { ChevronDownIcon, GlobeAltIcon } from '@heroicons/vue/24/outline'
+import { Listbox, ListboxLabel, ListboxButton, ListboxOptions, ListboxOption, } from '@headlessui/vue'
+import { ChevronDownIcon, GlobeAltIcon, CheckIcon } from '@heroicons/vue/24/outline'
 import { useI18n } from 'vue-i18n'
 import Translate from "@/i18n/translation"
 
@@ -9,8 +9,8 @@ const { t, locale } = useI18n()
 const supportedLocales = Translate.supportedLocales
 const supportedLocaleNames = Translate.supportedLocaleNames
 
-const switchLanguageTo = async (newLocale) => {
-  if (newLocale === locale.value) return;
+const switchLanguageTo = (newLocale) => {
+  if (newLocale === locale) return;
   Translate.switchLanguage(newLocale)
 }
 
@@ -18,33 +18,37 @@ const switchLanguageTo = async (newLocale) => {
 
 <template>
   <div class="relative w-fit">
-    <Listbox 
-      :modelValue="locale"
-      @update:modelValue="switchLanguageTo"
-    >
-      <ListboxButton class="flex items-center text-left border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 px-2 py-2">
-        <GlobeAltIcon class="w-5 h-5 translate-y-px text-gray-500 shrink-0" />
-        <span class="ml-1 uppercase font-bold">{{ locale }}</span>
-        <ChevronDownIcon class="translate-y-px ml-0.5 w-5 h-5 text-gray-500 shrink-0" />
-      </ListboxButton>
-      <ListboxOptions class="absolute left-0 sm:left-auto sm:right-0 mt-0.5 text-sm bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:outline-none focus:ring-1 focus:ring-sky-500 overflow-hidden focus:border-sky-500">
-        <ListboxOption
-          v-for="(option, idx) in supportedLocales"
-          :key="`locale-${option}`"
-          :value="option"
-          class="text-left cursor-pointer"
-          v-slot="{ active, selected }"
-        >
-          <li class="flex items-center px-4 py-1.5" :class="{
-            'bg-sky-500 text-white': active,
-            'text-gray-500': !selected && !active,
-            'font-bold': selected,
-          }"
-          >
-            {{ supportedLocaleNames[idx] }}
-          </li>
-        </ListboxOption>
-      </ListboxOptions>
+      <Listbox as="div" :modelValue="locale" @update:modelValue="switchLanguageTo">
+      <ListboxLabel class="sr-only">Change language</ListboxLabel>
+      <div class="relative">
+        <ListboxButton class="inline-flex divide-x divide-sky-200 rounded-md border border-sky-200 bg-sky-50 hover:bg-sky-100 outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-600">
+          <div class="inline-flex items-center gap-x-1.5 rounded-l-md px-3 py-2 text-sky-800">
+            <GlobeAltIcon class="-ml-0.5 size-5" aria-hidden="true" />
+            <p class="text-sm font-semibold">{{locale}}</p>
+          </div>
+          <div class="inline-flex items-center rounded-l-none rounded-r-md p-2">
+            <span class="sr-only">Change language</span>
+            <ChevronDownIcon class="size-5 text-sky-800 forced-colors:text-[Highlight]" aria-hidden="true" />
+          </div>
+        </ListboxButton>
+
+        <transition leave-active-class="transition ease-in duration-100" leave-from-class="opacity-100" leave-to-class="opacity-0">
+          <ListboxOptions class="absolute right-0 z-10 mt-2 w-40 origin-top-right divide-y divide-gray-200 overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+            <ListboxOption as="template" v-for="(option, idx) in supportedLocales" :key="`locale-${option}`" :value="option" v-slot="{ active, selected }">
+              <li :class="[active ? 'bg-sky-500 text-white' : 'text-gray-900', 'cursor-default select-none p-4 text-sm']">
+                <div class="flex flex-col">
+                  <div class="flex justify-between">
+                    <p :class="selected ? 'font-semibold' : 'font-normal'">{{ supportedLocaleNames[idx] }}</p>
+                    <span v-if="selected" :class="active ? 'text-white' : 'text-sky-600'">
+                      <CheckIcon class="size-5" aria-hidden="true" />
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ListboxOption>
+          </ListboxOptions>
+        </transition>
+      </div>
     </Listbox>
   </div>
 </template>
