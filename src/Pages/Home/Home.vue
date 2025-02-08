@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onBeforeUnmount, onMounted } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-import MyTabButton from '@/Components/TabButton.vue'
+import MyTabButton from '@/Components/MyTabButton.vue'
 import Accounts from './Partials/Accounts.vue'
 import Groups from './Partials/Groups.vue'
 import Classes from './Partials/Classes.vue'
@@ -30,7 +30,7 @@ onMounted(() => {
 
     <TabGroup @change="changeTab" :defaultIndex="Number(selectedTab)">
 
-      <TabList class="rounded border-b border-gray-300 space-x-1 sm:space-x-2 whitespace-nowrap flex justify-between w-fit mx-auto text-lg">
+      <TabList class="rounded space-x-1 sm:space-x-2 whitespace-nowrap flex justify-between w-fit mx-auto text-lg">
 
         <!-- Accounts tab button -->
         <Tab as="template" v-slot="{ selected }">
@@ -49,7 +49,7 @@ onMounted(() => {
 
       </TabList>
 
-      <TabPanels class="mt-4">
+      <TabPanels class="mt-2">
 
         <!-- Accounts panel -->
         <TabPanel class="rounded p-1">

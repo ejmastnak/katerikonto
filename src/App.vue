@@ -16,7 +16,7 @@ import { store } from '@/store.js'
 
       <div class="max-w-3xl mx-auto sm:px-4 py-8">
         <Logo />
-        <Home class="mt-8" />
+        <Home class="mt-10" />
       </div>
     </div>
 
