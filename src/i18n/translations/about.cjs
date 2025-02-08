@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       en: ", which specifies a set of standardized bookkeeping accounts and corresponding shorthand codes to be used for all financial accounting by businesses operating in Slovenia. The site is meant for accounting students and small business owners who are still learning which account codes correspond to which accounts.",
-      sl: ". Namenjena je predvsem študentom računovodstva, ki se prvič srečujejo s kontnim načrtom in še učijo katere številke pripadajo katerim kontom.",
+      sl: ". Namenjena je predvsem študentom računovodstva, ki se prvič srečujejo s kontnim načrtom in se še učijo, katere številke pripadajo katerim kontom.",
     },
   ],
   source: [
