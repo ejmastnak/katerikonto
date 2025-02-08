@@ -1,7 +1,11 @@
 <script setup>
+import { ref } from 'vue'
 import Home from '@/Pages/Home/Home.vue'
 import LanguageSwitcher from '@/Components/LanguageSwitcher.vue'
 import Logo from '@/Components/Logo.vue'
+import AboutDialog from '@/Components/AboutDialog.vue'
+import { store } from '@/store.js'
+
 </script>
 
 <template>
@@ -16,15 +20,11 @@ import Logo from '@/Components/Logo.vue'
       </div>
     </div>
 
-    <div class="mt-auto p-3 text-gray-400">
-      <span>
-        {{$t('app.footer.source')}} <a class="hover:underline hover:text-sky-600" href="https://si-revizija.si/standardi/slovenski-racunovodski-standardi-2016">SRS 2016</a>
-      </span>
-      <span class="mx-4">|</span>
-      <span>
-        {{$t('app.footer.madeBy')}} <a class="hover:underline hover:text-sky-600" href="https://ejmastnak.com/">Elijan Mastnak</a>
-      </span>
+    <div class="mt-auto p-4 text-gray-400">
+      <button @click="store.aboutDialogOpen = true" type="button" class="rounded bg-sky-50 px-3 py-1.5 text-sm font-semibold text-sky-700 shadow-sm hover:bg-sky-100">{{$t('about.button')}}</button>
     </div>
+
+    <AboutDialog />
 
   </main>
 </template>

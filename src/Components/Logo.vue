@@ -5,8 +5,8 @@
     </div>
     <div class="ml-3 sm:ml-4 ">
       <p class="text-sky-700">Kateri konto?</p>
-      <p v-if="$t('app.logoSubtitle')" class="mt-px text-xs text-gray-400">
-        {{$t('app.logoSubtitle')}}
+      <p v-if="$t('logo.subtitle')" class="mt-px text-xs text-gray-400">
+        {{$t('logo.subtitle')}}
       </p>
     </div>
   </div>

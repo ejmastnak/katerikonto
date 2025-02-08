@@ -33,7 +33,7 @@ const switchLanguageTo = (newLocale) => {
         </ListboxButton>
 
         <transition leave-active-class="transition ease-in duration-100" leave-from-class="opacity-100" leave-to-class="opacity-0">
-          <ListboxOptions class="absolute right-0 z-10 mt-2 w-40 origin-top-right divide-y divide-gray-200 overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+          <ListboxOptions class="absolute right-0 z-10 mt-2 w-36 origin-top-right divide-y divide-gray-200 overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
             <ListboxOption as="template" v-for="(option, idx) in supportedLocales" :key="`locale-${option}`" :value="option" v-slot="{ active, selected }">
               <li :class="[active ? 'bg-sky-500 text-white' : 'text-gray-900', 'cursor-default select-none p-4 text-sm']">
                 <div class="flex flex-col">
