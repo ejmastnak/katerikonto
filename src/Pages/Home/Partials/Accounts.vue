@@ -50,7 +50,6 @@ function compareCodes(a, b) {
       class="mt-px"
       inputWidth="w-64"
       id="accounts"
-      type="number"
       :placeholder="$t('accounts.inputPlaceholder')"
       v-model="query"
     />

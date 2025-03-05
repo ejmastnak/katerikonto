@@ -43,7 +43,6 @@ function compareCodes(a, b) {
       id="classes"
       class="mt-px"
       inputWidth="w-64"
-      type="number"
       :placeholder="$t('classes.inputPlaceholder')"
       v-model="query"
     />
