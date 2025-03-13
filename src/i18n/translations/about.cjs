@@ -31,20 +31,12 @@ module.exports = {
       sl: "Priporočeni enotni kontni načrt za gospodarske družbe, samostojne podjetnike posameznike, zadruge, nepridobitne organizacije – pravne osebe zasebnega prava ter društva in invalidske organizacije ",
     },
     {
-      en: "published by the Slovenian Institute of Auditors in 2016, freely accessible on ",
-      sl: "Slovenskega inštituta za rezijo (izdaja leta 2016), ki je prosto dostopen na ",
+      en: "published by the Slovenian Institute of Auditors in 2024, freely accessible on ",
+      sl: "Slovenskega inštituta za rezijo (izdaja leta 2024), ki je prosto dostopen na ",
     },
     {
       en: "the institute's website",
       sl: "spletni strani inštituta",
-    },
-    {
-      en: "in",
-      sl: "v",
-    },
-    {
-      en: "PDF form",
-      sl: "PDF obliki",
     },
     {
       en: ".",

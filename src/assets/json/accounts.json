@@ -539,6 +539,12 @@
     "uses_en": ["C", "SP", "CO", "N", "SD"],
     "uses_sl": ["D", "P", "Z", "N", "DI"]
   },
+  "135": {
+    "name_en": "Short-term advances for investment property",
+    "name_sl": "Kratkoročni predujmi, dani za naložbene nepremičnine",
+    "uses_en": ["C", "SP", "CO", "N", "SD"],
+    "uses_sl": ["D", "P", "Z", "N", "DI"]
+  },
   "139": {
     "name_en": "Impairment of short-term advances, overpayments and collaterals paid",
     "name_sl": "Oslabitev vrednosti danih kratkoročnih predujmov, preplačil in varščin",

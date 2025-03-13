@@ -16,10 +16,10 @@ import { store } from '@/store.js'
       <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
         <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
           <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" enter-to="opacity-100 translate-y-0 sm:scale-100" leave="ease-in duration-200" leave-from="opacity-100 translate-y-0 sm:scale-100" leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
-            <DialogPanel class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+            <DialogPanel class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-xl">
               <div class="px-4 pb-4 pt-5 sm:p-10 sm:pb-4">
                 <Logo />
-                <div class="mt-16 sm:mt-20 text-gray-800">
+                <div class="mt-12 sm:mt-16 text-gray-800">
                   <p>
                     {{$t('about.about[0]')}}
                     <a href="https://www.si-revizija.si/" class="text-sky-600 hover:underline">{{$t('about.about[1]')}}</a>
@@ -32,10 +32,8 @@ import { store } from '@/store.js'
                     {{$t('about.source[1]')}}
                     <span class="italic">{{$t('about.source[2]')}}</span>
                     <span>{{$t('about.source[3]')}}</span>
-                    <a href="https://si-revizija.si/standardi/slovenski-racunovodski-standardi-2016" class="text-sky-600 hover:underline">{{$t('about.source[4]')}}</a>
-                    {{$t('about.source[5]')}} 
-                    <a href="https://si-revizija.si/datoteke/standardi/1538/enotni-kontni-nacrt-gd-2019-2.pdf" class="text-sky-600 hover:underline">{{$t('about.source[6]')}}</a>
-                    <span class="">{{$t('about.source[7]')}}</span>
+                    <a href="https://si-revizija.si/komisija-za-srs/srs-2024" class="text-sky-600 hover:underline">{{$t('about.source[4]')}}</a>
+                    <span class="">{{$t('about.source[5]')}}</span>
                   </p>
 
                   <!-- Made by -->

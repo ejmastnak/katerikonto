@@ -1,11 +1,20 @@
 <script setup>
-import { ref, watch, inject, onBeforeUnmount, onMounted } from 'vue'
+import { ref, watch, computed, inject, onBeforeUnmount, onMounted } from 'vue'
+import { useI18n } from 'vue-i18n';
 import fuzzysort from 'fuzzysort'
 import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
 import InputLabel from '@/Components/InputLabel.vue'
 import Account from './Account.vue'
 import ItemWrapper from './ItemWrapper.vue'
+
+const { t, locale } = useI18n();
+// Wait what type is locale?
+const keys = ref(locale === 'en')
+console.log(locale);
+// watch(locale, () => {
+//   keys.value = locale === 'en' ? ['code', 'name_en'] : ['code', 'name_sl']
+// })
 
 const accountsArray = inject('accountsArray')
 
@@ -42,6 +51,10 @@ function compareCodes(a, b) {
 
 <template>
   <div>
+
+    <pre>
+      {{keys}}
+    </pre>
 
     <!-- Search input for accounts -->
     <div class="w-fit mx-auto text-lg">
