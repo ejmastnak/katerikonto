@@ -38,6 +38,19 @@ function compareCodes(a, b) {
   return a.target - b.target;
 }
 
+onBeforeUnmount(() => {
+  sessionStorage.setItem('groupsQuery', query.value);
+})
+
+window.onbeforeunload = function() {
+  sessionStorage.setItem('groupsQuery', query.value);
+}
+
+onMounted(() => {
+  const savedQuery = sessionStorage.getItem('groupsQuery');
+  if (savedQuery) query.value = savedQuery;
+})
+
 </script>
 
 <template>

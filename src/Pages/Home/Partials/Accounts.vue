@@ -47,6 +47,19 @@ function compareCodes(a, b) {
   return a.target - b.target;
 }
 
+onBeforeUnmount(() => {
+  sessionStorage.setItem('accountsQuery', query.value);
+})
+
+window.onbeforeunload = function() {
+  sessionStorage.setItem('accountsQuery', query.value);
+}
+
+onMounted(() => {
+  const savedQuery = sessionStorage.getItem('accountsQuery');
+  if (savedQuery) query.value = savedQuery;
+})
+
 </script>
 
 <template>
