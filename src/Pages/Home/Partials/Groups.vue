@@ -1,5 +1,6 @@
 <script setup>
 import { ref, watch, inject, onBeforeUnmount, onMounted } from 'vue'
+import { useI18n } from 'vue-i18n';
 import fuzzysort from 'fuzzysort'
 import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
@@ -7,6 +8,7 @@ import InputLabel from '@/Components/InputLabel.vue'
 import Group from './Group.vue'
 import ItemWrapper from './ItemWrapper.vue'
 
+const { t, locale } = useI18n();
 const groupsArray = inject('groupsArray')
 
 // fuzzysort options
@@ -18,7 +20,7 @@ const query = ref("")
 const filteredGroups = ref([])
 function searchGroups(query) {
   filteredGroups.value = fuzzysort.go(query.trim(), groupsArray, {
-    key: 'code',
+    keys: (locale.value === 'en') ? ['code', 'name_en'] : ['code', 'name_sl'],
     limit: limit,
     threshold: threshold,
   })
@@ -33,9 +35,9 @@ watch(query, throttle(function (value) {
   alphabetical sort.
 */
 function compareCodes(a, b) {
-  if (a.target.startsWith(query.value) && !b.target.startsWith(query.value)) return -1;
-  if (b.target.startsWith(query.value) && !a.target.startsWith(query.value)) return 1;
-  return a.target - b.target;
+  if (a.obj.code.startsWith(query.value) && !b.obj.code.startsWith(query.value)) return -1;
+  if (b.obj.code.startsWith(query.value) && !a.obj.code.startsWith(query.value)) return 1;
+  return a.obj.code - b.obj.code;
 }
 
 onBeforeUnmount(() => {

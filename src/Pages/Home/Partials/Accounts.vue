@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, computed, inject, onBeforeUnmount, onMounted } from 'vue'
+import { ref, watch, inject, onBeforeUnmount, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n';
 import fuzzysort from 'fuzzysort'
 import throttle from "lodash/throttle";
@@ -9,13 +9,6 @@ import Account from './Account.vue'
 import ItemWrapper from './ItemWrapper.vue'
 
 const { t, locale } = useI18n();
-// Wait what type is locale?
-const keys = ref(locale === 'en')
-console.log(locale);
-// watch(locale, () => {
-//   keys.value = locale === 'en' ? ['code', 'name_en'] : ['code', 'name_sl']
-// })
-
 const accountsArray = inject('accountsArray')
 
 // fuzzysort options
@@ -27,10 +20,10 @@ const query = ref("")
 const filteredAccounts = ref([])
 function searchAccounts(query) {
   filteredAccounts.value = fuzzysort.go(query.trim(), accountsArray, {
-    key: 'code',
+    keys: (locale.value === 'en') ? ['code', 'name_en'] : ['code', 'name_sl'],
     limit: limit,
     threshold: threshold,
-  })
+  });
 }
 
 watch(query, throttle(function (value) {
@@ -38,13 +31,13 @@ watch(query, throttle(function (value) {
 }, throttlems))
 
 /**
-  Prioritizes group codes beginning with search query, falling back to
+  Prioritizes account codes beginning with search query, falling back to
   alphabetical sort.
 */
 function compareCodes(a, b) {
-  if (a.target.startsWith(query.value) && !b.target.startsWith(query.value)) return -1;
-  if (b.target.startsWith(query.value) && !a.target.startsWith(query.value)) return 1;
-  return a.target - b.target;
+  if (a.obj.code.startsWith(query.value) && !b.obj.code.startsWith(query.value)) return -1;
+  if (b.obj.code.startsWith(query.value) && !a.obj.code.startsWith(query.value)) return 1;
+  return a.obj.code - b.obj.code;
 }
 
 onBeforeUnmount(() => {
@@ -64,10 +57,6 @@ onMounted(() => {
 
 <template>
   <div>
-
-    <pre>
-      {{keys}}
-    </pre>
 
     <!-- Search input for accounts -->
     <div class="w-fit mx-auto text-lg">

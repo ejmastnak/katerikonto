@@ -1,5 +1,6 @@
 <script setup>
 import { ref, watch, inject, onBeforeUnmount, onMounted } from 'vue'
+import { useI18n } from 'vue-i18n';
 import fuzzysort from 'fuzzysort'
 import throttle from "lodash/throttle";
 import TextInput from '@/Components/TextInput.vue'
@@ -7,6 +8,7 @@ import InputLabel from '@/Components/InputLabel.vue'
 import Class from './Class.vue'
 import ItemWrapper from './ItemWrapper.vue'
 
+const { t, locale } = useI18n();
 const classesArray = inject('classesArray')
 
 // fuzzysort options
@@ -18,7 +20,7 @@ const query = ref("")
 const filteredClasses = ref([])
 function searchClasses(query) {
   filteredClasses.value = fuzzysort.go(query.trim(), classesArray, {
-    key: 'code',
+    keys: (locale.value === 'en') ? ['code', 'name_en'] : ['code', 'name_sl'],
     limit: limit,
     threshold: threshold,
   })
@@ -29,7 +31,7 @@ watch(query, throttle(function (value) {
 }, throttlems))
 
 function compareCodes(a, b) {
-  return a.target - b.target;
+  return a.obj.code - b.obj.code;
 }
 
 onBeforeUnmount(() => {
